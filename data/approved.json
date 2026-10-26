@@ -2508,5 +2508,65 @@
     "rights": "krátká citace; vlastní překlad",
     "audience": "all",
     "verification": "primary-source"
+  },
+  {
+    "id": "king-pressure-privilege",
+    "text": "Tlak je výsada.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Billie Jean Kingová",
+    "source": "Rozhovor se sportovkyní; vlastní český překlad",
+    "source_url": "https://achievement.org/achiever/billie-jean-king/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "biles-okay",
+    "text": "Je v pořádku nebýt v pořádku.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Simone Bilesová",
+    "source": "Rozhovor se sportovkyní; vlastní český překlad",
+    "source_url": "https://www.olympics.com/ioc/news/supporting-athletes-mental-health-on-and-off-the-field-of-play",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "biles-speak",
+    "text": "Můžeš se ozvat a postavit se za to, čemu věříš.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Simone Bilesová",
+    "source": "Rozhovor se sportovkyní; vlastní český překlad",
+    "source_url": "https://www.olympics.com/ioc/news/supporting-athletes-mental-health-on-and-off-the-field-of-play",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "biles-success",
+    "text": "Úspěch pro mě dnes znamená přijít, být v dobré psychické pohodě a užít si to.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Simone Bilesová",
+    "source": "Rozhovor se sportovkyní; vlastní český překlad",
+    "source_url": "https://www.olympics.com/ioc/news/exclusive-simone-biles-letting-go-twisting-again-no-regrets-success-gymnastics-paris",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "biles-journey",
+    "text": "Snažila jsem se nechat věci plynout a užívat si cestu.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Simone Bilesová",
+    "source": "Rozhovor se sportovkyní; vlastní český překlad",
+    "source_url": "https://www.olympics.com/ioc/news/exclusive-simone-biles-letting-go-twisting-again-no-regrets-success-gymnastics-paris",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "primary-source"
   }
 ]
