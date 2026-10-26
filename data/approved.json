@@ -3444,5 +3444,41 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "hippocrates-decisions",
+    "text": "Příležitost prchavá, zkušenost nejistá a rozhodnutí obtížné.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Hippokratés",
+    "source": "Aforismy I.1",
+    "source_url": "https://classics.mit.edu/Hippocrates/aphorisms.1.i.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "osler-patient",
+    "text": "Dobrý lékař léčí nemoc; skvělý lékař léčí člověka, který ji má.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "William Osler",
+    "source": "Oslerovy aforismy",
+    "source_url": "https://www.osler.org.uk/oslers-aphorisms",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "pasteur-prepared",
+    "text": "Náhoda přeje jen připravené mysli.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Louis Pasteur",
+    "source": "Přednáška v Lille, 1854",
+    "source_url": "https://www.nhlbi.nih.gov/directors-messages/serendipity-and-the-prepared-mind",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
