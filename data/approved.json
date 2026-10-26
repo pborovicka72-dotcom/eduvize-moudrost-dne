@@ -4704,5 +4704,89 @@
     "rights": "krátká citace; český překlad nebo zkrácení",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "wonder-love-key",
+    "text": "Láska je klíč.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Stevie Wonder",
+    "source": "Rozhovor s Davidem Breskinem",
+    "source_url": "https://davidbreskin.com/magazines/1-interviews/stevie-wonder/",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "wonder-story",
+    "text": "Když píšete píseň, vytváříte krátký příběh o lásce.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Stevie Wonder",
+    "source": "Rozhovor s Davidem Breskinem",
+    "source_url": "https://davidbreskin.com/magazines/1-interviews/stevie-wonder/",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "wonder-choose",
+    "text": "Povzbuzuji vás, abyste si vybrali lásku místo nenávisti.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Stevie Wonder",
+    "source": "Koncert v Hyde Parku, 2016",
+    "source_url": "https://www.cbsnews.com/news/stevie-wonder-urges-fans-to-choose-love-over-hate-at-concert/",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lamar-story",
+    "text": "Umění vyprávět příběh je dovést ho od začátku do konce tak, aby všechno zapadlo.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Kendrick Lamar",
+    "source": "Rozhovor pro Interview Magazine",
+    "source_url": "https://www.interviewmagazine.com/music/kendrick-lamar",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lamar-now",
+    "text": "Rád žiju přítomností. Je pro mě těžké žít minulostí.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Kendrick Lamar",
+    "source": "Rozhovor Apple Music před Super Bowlem 2025",
+    "source_url": "https://www.xxlmag.com/kendrick-lamar-2025-super-bowl-interview/",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kryl-skeptic",
+    "text": "Jsem zdravý skeptik. Počítám s nulou a co je nad ní, je už dobré.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Karel Kryl",
+    "source": "Rozhovor z roku 1993",
+    "source_url": "https://medium.seznam.cz/clanek/kvaj-karel-kryl-nebyl-leader-ale-nekompromisni-soliter-248189",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kryl-self",
+    "text": "Já se cítím jako já. Je to divné?",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Karel Kryl",
+    "source": "Rozhovor z roku 1993",
+    "source_url": "https://medium.seznam.cz/clanek/kvaj-karel-kryl-nebyl-leader-ale-nekompromisni-soliter-248189",
+    "rights": "krátká citace; český překlad u zahraničních autorů",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
