@@ -4596,5 +4596,113 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "dvorak-idea",
+    "text": "Mít krásný nápad není nic zvláštního. Udělat z něj něco velkého, to je skutečné umění.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Antonín Dvořák",
+    "source": "Přednáška na pražské konzervatoři",
+    "source_url": "https://www.antonin-dvorak.cz/en/antonin-dvorak-s-statements/",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "dvorak-musician",
+    "text": "Jsem docela obyčejný český muzikant.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Antonín Dvořák",
+    "source": "Dopis Bohumilu Fidlerovi, 9. 1. 1886",
+    "source_url": "https://www.antonin-dvorak.cz/en/antonin-dvorak-s-statements/",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "dvorak-locomotive",
+    "text": "Dal bych všechny své symfonie za to, kdybych mohl vynalézt lokomotivu!",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Antonín Dvořák",
+    "source": "Výrok o lokomotivě",
+    "source_url": "https://www.antonin-dvorak.cz/en/antonin-dvorak-s-statements/",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kubisova-strength",
+    "text": "Člověk musí znát své síly a hlavně nesmí sám sobě něco nalhávat.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Marta Kubišová",
+    "source": "Rozhovor Českého rozhlasu Plus, 2016",
+    "source_url": "https://plus.rozhlas.cz/marta-kubisova-slavi-narozeniny-nechci-na-jevisti-vyvolavat-soucit-v-nejlepsim-6533144",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kubisova-stop",
+    "text": "V nejlepším se má přestat.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Marta Kubišová",
+    "source": "Rozhovor Českého rozhlasu Plus, 2016",
+    "source_url": "https://plus.rozhlas.cz/marta-kubisova-slavi-narozeniny-nechci-na-jevisti-vyvolavat-soucit-v-nejlepsim-6533144",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "aretha-respect",
+    "text": "Chcete lidem dávat důstojnost a respekt a chcete je také dostávat.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Aretha Franklinová",
+    "source": "Rozhovor pro TIME",
+    "source_url": "https://stevengray.com/time/aretha-franklin-interview",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "aretha-music",
+    "text": "Hudba je univerzální a dokáže člověka přenést jinam.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Aretha Franklinová",
+    "source": "Rozhovor pro ELLE, 2016",
+    "source_url": "https://www.elle.com/culture/music/a35398/arethas-anthem/",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "marley-lyrics",
+    "text": "Někdy je důležitá hudba, někdy text. Důležitý je ale celek.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Bob Marley",
+    "source": "Rozhovor z archivu The Guardian",
+    "source_url": "https://www.theguardian.com/music/musicblog/2012/apr/17/bob-marley-interview",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "marley-reach",
+    "text": "Hudbou se dostanu k lidem, které bych jinak nikdy neoslovil.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Bob Marley",
+    "source": "Rozhovor s Bobem Hartem, 1977",
+    "source_url": "https://virginradio.co.uk/entertainment/136027/bob-marley-archive-love-music-near-death-experiences",
+    "rights": "krátká citace; český překlad nebo zkrácení",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
