@@ -4176,5 +4176,41 @@
     "rights": "krátká citace",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "mccartney-music-self",
+    "text": "Šlo o to dělat hudbu pro sebe, ne hudbu, která musí plnit nějaký úkol.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Paul McCartney",
+    "source": "McCartney III, rozhovor na oficiálním webu Beatles",
+    "source_url": "https://www.thebeatles.com/mccartney-iii",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "mccartney-fun",
+    "text": "Byla to velká zábava. Neměl jsem tušení, že z toho vznikne album.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Paul McCartney",
+    "source": "McCartney III, rozhovor na oficiálním webu Beatles",
+    "source_url": "https://www.thebeatles.com/mccartney-iii",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "mccartney-layers",
+    "text": "Každý den jsem začal nahrávat na nástroj, na kterém jsem píseň napsal, a postupně přidával další vrstvy.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Paul McCartney",
+    "source": "McCartney III, rozhovor na oficiálním webu Beatles",
+    "source_url": "https://www.thebeatles.com/mccartney-iii",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
