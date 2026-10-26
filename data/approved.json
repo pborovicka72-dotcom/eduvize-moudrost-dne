@@ -2448,5 +2448,65 @@
     "rights": "krátká citace s uvedením autora",
     "audience": "all",
     "verification": "attributed"
+  },
+  {
+    "id": "federer-effortless-2024",
+    "text": "Lehkost bez námahy je mýtus.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Roger Federer",
+    "source": "Projev na Dartmouth College, 2024",
+    "source_url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+    "rights": "krátká citace; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "federer-perfection-2024",
+    "text": "V tenise je dokonalost nemožná.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Roger Federer",
+    "source": "Projev na Dartmouth College, 2024",
+    "source_url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+    "rights": "krátká citace; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "federer-energy-2024",
+    "text": "Negativní energie je promarněná energie.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Roger Federer",
+    "source": "Projev na Dartmouth College, 2024",
+    "source_url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+    "rights": "krátká citace; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "federer-beyond-2024",
+    "text": "Život je větší než tenisový kurt.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Roger Federer",
+    "source": "Projev na Dartmouth College, 2024",
+    "source_url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+    "rights": "krátká citace; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
+  },
+  {
+    "id": "federer-points-2024",
+    "text": "Vyhrál jsem téměř 80 % zápasů, ale jen 54 % výměn.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Roger Federer",
+    "source": "Projev na Dartmouth College, 2024",
+    "source_url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+    "rights": "krátká citace; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
   }
 ]
