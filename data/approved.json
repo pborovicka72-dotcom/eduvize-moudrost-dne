@@ -382,5 +382,115 @@
     "rights": "PD-author-original; translation-status-unverified",
     "audience": "all",
     "verification": "secondary-source"
+  },
+  {
+    "id": "vymazal-3",
+    "text": "Nejlepší vynálezy se rozumějí samy sebou.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 3",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-25",
+    "text": "První krok moudrosti je na všechno naříkat; druhý krok je se vším se smířit.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 25",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-121",
+    "text": "Každá opravdová práce vzdělává. Pouze biflování je zabíjení času.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 121",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-128",
+    "text": "Všecka věda je vědění dnešního dne.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 128",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-146",
+    "text": "Nesmysl se u nás provede snadno, rozumná věc těžko.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 146",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-506",
+    "text": "Mladí vědí všecko lépe, jenom že to neumějí udělat.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 506",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-679",
+    "text": "Po skutečně velkých lidech zbude věc, po zdánlivě velkých holé jméno.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 679",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-848",
+    "text": "Za hranicemi našeho mikroskopu leží ještě celé světy, jež toliko můžeme tušiti.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 848",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-860",
+    "text": "Dlouho žije, kdo mnoho myslí.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 860",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
+  },
+  {
+    "id": "vymazal-875",
+    "text": "Jak dobře se často obejdeme bez toho, čeho jsme nedostali.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "František Vymazal (sběratel)",
+    "source": "Tisíc nových zrnek (1911), č. 875",
+    "source_url": "https://cs.wikisource.org/wiki/Tis%C3%ADc_nov%C3%BDch_zrnek",
+    "rights": "PD-old-70",
+    "audience": "all"
   }
 ]
