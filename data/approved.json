@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "id": "folk-001",
+    "text": "Kdo se ptá, ten se dozví.",
+    "language": "cs",
+    "topic": "Vzdělání",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-002",
+    "text": "Žádný učený z nebe nespadl.",
+    "language": "cs",
+    "topic": "Vzdělání",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-003",
+    "text": "Opakování je matka moudrosti.",
+    "language": "cs",
+    "topic": "Vzdělání",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-004",
+    "text": "Ranní ptáče dál doskáče.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-005",
+    "text": "Dvakrát měř, jednou řež.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-006",
+    "text": "Bez práce nejsou koláče.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-007",
+    "text": "Trpělivost růže přináší.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-008",
+    "text": "V nouzi poznáš přítele.",
+    "language": "cs",
+    "topic": "Přátelství",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-009",
+    "text": "Ve dvou se to lépe táhne.",
+    "language": "cs",
+    "topic": "Přátelství",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-010",
+    "text": "Kdo jinému jámu kopá, sám do ní padá.",
+    "language": "cs",
+    "topic": "Přísloví",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-011",
+    "text": "Co můžeš udělat dnes, neodkládej na zítřek.",
+    "language": "cs",
+    "topic": "Přísloví",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-012",
+    "text": "Lepší vrabec v hrsti než holub na střeše.",
+    "language": "cs",
+    "topic": "Přísloví",
+    "author": "Lidové přísloví",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-013",
+    "text": "Opakovanie je matka múdrosti.",
+    "language": "sk",
+    "topic": "Vzdelanie",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-014",
+    "text": "Nikto učený z neba nespadol.",
+    "language": "sk",
+    "topic": "Vzdelanie",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-015",
+    "text": "Kto sa pýta, ten sa dozvie.",
+    "language": "sk",
+    "topic": "Vzdelanie",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-016",
+    "text": "Ranné vtáča ďalej doskáče.",
+    "language": "sk",
+    "topic": "Múdrosť",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-017",
+    "text": "Dvakrát meraj, raz rež.",
+    "language": "sk",
+    "topic": "Múdrosť",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-018",
+    "text": "Bez práce nie sú koláče.",
+    "language": "sk",
+    "topic": "Múdrosť",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-019",
+    "text": "Trpezlivosť ruže prináša.",
+    "language": "sk",
+    "topic": "Múdrosť",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-020",
+    "text": "V núdzi poznáš priateľa.",
+    "language": "sk",
+    "topic": "Priateľstvo",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-021",
+    "text": "Vo dvojici sa to lepšie ťahá.",
+    "language": "sk",
+    "topic": "Priateľstvo",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-022",
+    "text": "Kto druhému jamu kope, sám do nej spadne.",
+    "language": "sk",
+    "topic": "Príslovia",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-023",
+    "text": "Čo môžeš urobiť dnes, neodkladaj na zajtra.",
+    "language": "sk",
+    "topic": "Príslovia",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  },
+  {
+    "id": "folk-024",
+    "text": "Lepší vrabec v hrsti ako holub na streche.",
+    "language": "sk",
+    "topic": "Príslovia",
+    "author": "Ľudové príslovie",
+    "source": "Tradiční lidová slovesnost",
+    "rights": "PD-traditional"
+  }
+]
