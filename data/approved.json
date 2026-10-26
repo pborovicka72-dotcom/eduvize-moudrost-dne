@@ -1401,5 +1401,41 @@
     "rights": "krátká citace – posoudit podmínky §31",
     "audience": "all",
     "verification": "documented-archive"
+  },
+  {
+    "id": "havel-conscience",
+    "text": "Naše svědomí musí dohnat náš rozum, jinak jsme ztraceni.",
+    "language": "cs",
+    "topic": "Odpovědnost",
+    "author": "Václav Havel",
+    "source": "Výrok připisovaný Václavu Havlovi; původní dílo dosud neověřeno",
+    "source_url": "https://www.kampocesku.cz/clanek/30503/vaclav-havel",
+    "rights": "krátká citace – §31, posoudit použití",
+    "audience": "secondary",
+    "verification": "secondary-source"
+  },
+  {
+    "id": "havel-indifference",
+    "text": "Lhostejnost k druhým a lhostejnost k osudu celku je přesně tím, co otevírá dveře zlu.",
+    "language": "cs",
+    "topic": "Odpovědnost",
+    "author": "Václav Havel",
+    "source": "Výrok připisovaný Václavu Havlovi; původní dílo dosud neověřeno",
+    "source_url": "https://www.kampocesku.cz/clanek/30503/vaclav-havel",
+    "rights": "krátká citace – §31, posoudit použití",
+    "audience": "secondary",
+    "verification": "secondary-source"
+  },
+  {
+    "id": "havel-words-trust",
+    "text": "Není pochyb o tom, že nedůvěra ve slova je méně škodlivá než nepodložená důvěra v ně.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Václav Havel",
+    "source": "Výrok připisovaný Václavu Havlovi; původní dílo dosud neověřeno",
+    "source_url": "https://citaty.net/autori/vaclav-havel/",
+    "rights": "krátká citace – §31, posoudit použití",
+    "audience": "secondary",
+    "verification": "secondary-source"
   }
 ]
