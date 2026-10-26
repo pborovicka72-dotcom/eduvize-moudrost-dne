@@ -1,14 +1,20 @@
 # Eduvize – Moudrost dne
 
-Bezobslužná aplikace pro školní informační obrazovky, v češtině a slovenštině. Překlad ani ruční schvalování není vyžadováno.
+Samostatný modul citátů pro školní informační obrazovky Eduvize.
 
-## Databáze
-`data/approved.json` obsahuje tradiční lidová přísloví. Automatický import z českých Wikizdrojů je v `scripts/import_wikisource.py`; spouští jej `.github/workflows/wikisource.yml` jednou týdně nebo ručně.
+## Aktivní databáze
+`data/approved.json` obsahuje kurátorované výroky osobností s odkazy na webové zdroje. Dne 26. 10. 2026 bylo odstraněno 65 starších záznamů: 24 testovacích lidových přísloví a 41 záznamů původně čerpaných z projektů Wikimedia. Zbylo 429 záznamů.
 
-## Přísný licenční filtr
-Import přijme pouze samostatný krátký text na stránce s explicitní rozpoznanou licenční šablonou: PD-traditional, PD-old, PD-70, CC0, CC-BY-4.0 nebo CC-BY-SA-4.0. Uloží název díla, odkaz a licenci. Bez explicitního údaje nepřebírá nic. Licenční údaj může být na Wikizdrojích uveden v jiných šablonách nebo na nadřazené stránce; takové záznamy se zatím přeskočí. **Nejde o úplný import všech volných děl** a samotné rozpoznání šablony není právní zárukou.
+## Pravidla konzistence
+- Každý záznam: identifikátor, text, jazyk, téma, autor, zdroj a pokud možno přímý odkaz.
+- Původní zdroj má přednost před agregátorem citátů; webový odkaz sám o sobě neprokazuje správné autorství ani oprávnění k použití.
+- Pracovní kandidáti v `data/candidates_*.json` a dalších rešeršních souborech nejsou automaticky schválené citáty.
+- Neověřené překlady, parafráze a licenční otázky vyžadují další revizi před veřejným použitím.
+- Při doplňování odstraňovat duplicity podle autora a normalizovaného textu.
+- Jeden citát může mít více tematických kategorií, nemá být uložen vícekrát.
 
-Záměrně se neimportují dlouhá díla ani náhodné věty vytržené z kontextu. Automatická extrakce je omezená na jednořádková samostatná díla. Pro CC BY / BY-SA musí být dodržena atribuce a příslušné licenční podmínky; samotný odkaz na zdroj nemusí splnit všechny požadavky.
+## Import
+Starší import z Wikizdrojů je vypnutý v `.github/workflows/wikisource.yml`. Skript `scripts/import_wikisource.py` zůstává jen jako historický zdrojový kód a nemá se spouštět pro produkční databázi.
 
 ## Konfigurace
-`config.html`: jazyk, téma, interval. Nastavení se ukládá lokálně v prohlížeči. Pro GitHub Actions povolte v Settings → Actions → General právo zápisu do repozitáře.
+`config.html`: jazyk, téma, interval. Nastavení se ukládá lokálně v prohlížeči.
