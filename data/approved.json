@@ -4428,5 +4428,53 @@
     "rights": "krátký úryvek; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "farna-flow",
+    "text": "Při zpívání jsem v takovém flow, že nevnímám čas.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Ewa Farna",
+    "source": "Rozhovor pro Notino, 2024",
+    "source_url": "https://www.notino.cz/beautyblog/tipy-a-rady/ewa-farna-pri-zpivani-jsem-ve-flow-a-nevnimam-cas/",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "farna-pose",
+    "text": "Když se někdo snaží působit na sílu, je to vždycky prokouknutelné.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Ewa Farna",
+    "source": "Rozhovor pro iDNES, 2026; zkráceno",
+    "source_url": "https://www.idnes.cz/zpravy/revue/spolecnost/ewa-farna-superstar-porotkyne-moderatorka-zpevacka-soutez.A260907_093035_lidicky_zar",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "armstrong-life",
+    "text": "Hudba je život sám. Jaký by byl svět bez dobré hudby?",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Louis Armstrong",
+    "source": "Dopis vojákovi ve Vietnamu, 1967; In His Own Words (1999)",
+    "source_url": "https://ejazznews.com/features/louis-armstrong-quotes/",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "armstrong-horn",
+    "text": "Nechci nic dokazovat. Jen rád hraji na trubku.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Louis Armstrong",
+    "source": "Rozhovor pro Jasmin, 1971",
+    "source_url": "https://www.historyhit.com/culture/louis-armstrong-a-life-in-quotes/",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
