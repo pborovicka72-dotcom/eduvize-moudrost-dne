@@ -3600,5 +3600,29 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "blackwell-impossible",
+    "text": "Řekli mi, že studovat medicínu je pro ženu nemožné. To mě spíš povzbudilo.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Elizabeth Blackwell",
+    "source": "Pioneer Work in Opening the Medical Profession to Women, 1895; zkráceno",
+    "source_url": "https://digital.library.upenn.edu/women/blackwell/pioneer/pioneer.html",
+    "rights": "krátká citace; české znění",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "purkyne-sparks",
+    "text": "Věda má každému jednotlivci tolik jisker rozkřísnouti, kolik síla zraku jeho snésti může.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Jan Evangelista Purkyně",
+    "source": "Česká lékařská společnost J. E. Purkyně",
+    "source_url": "https://www.cls.cz/vyznamni-lekari",
+    "rights": "krátká citace; české znění",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
