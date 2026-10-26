@@ -3432,5 +3432,17 @@
     "rights": "krátká citace; případně vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "hippocrates-short",
+    "text": "Život je krátký, lékařské umění dlouhé.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Hippokratés",
+    "source": "Aforismy I.1",
+    "source_url": "https://classics.mit.edu/Hippocrates/aphorisms.1.i.html",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
