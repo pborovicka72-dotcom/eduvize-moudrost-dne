@@ -1,19 +1,18 @@
 # Eduvize – Moudrost dne
 
-Samostatný modul Eduvize. Jediným zdrojem nových citátů je **ZenQuotes**, jedinou překladovou službou **DeepL**.
+Samostatná aplikace Eduvize. **Zdroje: české a slovenské Wikicitáty (Wikiquote). Bez DeepL, ZenQuotes a jiného překladového API.**
 
-## Bezpečnost a publikování
-- GitHub Actions načítá dávku citátů z `https://zenquotes.io/api/quotes`.
-- Nové položky překládá do CS a SK přes DeepL API na serveru GitHub Actions.
-- Ukládá je pouze do `data/pending.json`; **nepublikuje je automaticky**.
-- Správce zkontroluje obsah i překlady a vhodné záznamy přesune do `data/approved.json` (pole `id,en,cs,sk,author,source`).
-- Výstupní stránka používá výhradně schválené položky. Při výpadku API zůstávají schválená data dostupná.
+## Provoz
+- `index.html` zobrazuje jen ručně schválené záznamy z `data/approved.json`.
+- `config.html` nastavuje jazyk (čeština nebo slovenština), kategorii a interval přepínání, lokálně v prohlížeči.
+- GitHub Actions `Import Wikicitáty for review` načítá z kategorií definovaných v `data/categories.json` kandidáty do `data/pending.json`.
+- Import nepřidává nic přímo na veřejnou nástěnku. **Každý citát musí správce zkontrolovat** (vhodnost, význam, autorství, licence) a ručně převést do `data/approved.json`.
+- Formát schváleného záznamu: `id,text,language,topic,author,source,source_url`. Zachovejte URL původu a informace o licenci/atribuci.
+- Kategorie Wikicitátů třídí stránky, nikoli jednotlivé výroky; import používá jednoduchou extrakci odrážek a výsledky vyžadují kontrolu.
+- Seznam kategorií je výchozí návrh: názvy a dostupnost na konkrétní wiki se mohou lišit. Před ostrým provozem je ověřte.
 
-## Nastavení
-1. V repozitáři otevřete **Settings → Secrets and variables → Actions → New repository secret**.
-2. Vložte **DEEPL_API_KEY**. Klíč nikdy nevkládejte do HTML ani do veřejného repozitáře.
-3. V **Settings → Actions → General → Workflow permissions** povolte **Read and write permissions**.
-4. Spusťte **Actions → Fetch and translate ZenQuotes → Run workflow**.
-5. Zkontrolujte `data/pending.json` a vhodné položky přesuňte do `data/approved.json`.
+## Práva
+Obsah Wikicitátů může mít licenční a autorskoprávní omezení. Před publikací ověřte licenci konkrétního obsahu, požadované uvedení autorů, odkazu a podmínky dalšího užití. Automatický import není právní kontrola.
 
-ZenQuotes bez placeného klíče negarantuje filtrování podle kategorií a vyžaduje uvedení zdroje. Provozní limity a podmínky komerčního použití ověřte u poskytovatele. DeepL API klíč je vyžadován. GitHub Pages neprovádí volání překladové služby.
+## GitHub Actions
+V Settings → Actions → General nastavte Workflow permissions → Read and write permissions. Poté lze ručně spustit import přes Actions. Žádný API klíč není potřeba.
