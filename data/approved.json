@@ -3588,5 +3588,17 @@
     "rights": "krátká citace; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "blackwell-idea",
+    "text": "Je-li myšlenka opravdu hodnotná, musí existovat způsob, jak ji uskutečnit.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Elizabeth Blackwell",
+    "source": "Pioneer Work in Opening the Medical Profession to Women, 1895",
+    "source_url": "https://digital.library.upenn.edu/women/blackwell/pioneer/pioneer.html",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
