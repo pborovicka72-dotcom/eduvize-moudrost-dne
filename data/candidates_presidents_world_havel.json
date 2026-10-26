@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pres-reviewed-001",
+    "author": "John F. Kennedy",
+    "country": "USA",
+    "text": "Neptej se, co může tvá země udělat pro tebe; ptej se, co můžeš ty udělat pro svou zemi.",
+    "original": "Ask not what your country can do for you—ask what you can do for your country.",
+    "language": "cs",
+    "original_language": "en",
+    "topic": "Odpovědnost",
+    "source_url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/inaugural-address",
+    "status": "source-located-rights-pending",
+    "rights": "review-required",
+    "translation": "Vlastní pracovní překlad; není oficiální"
+  },
+  {
+    "id": "pres-reviewed-002",
+    "author": "John F. Kennedy",
+    "country": "USA",
+    "text": "Nikdy nevyjednávejme ze strachu. Ale nikdy se nebojme vyjednávat.",
+    "original": "Let us never negotiate out of fear. But let us never fear to negotiate.",
+    "language": "cs",
+    "original_language": "en",
+    "topic": "Dialog",
+    "source_url": "https://www.jfklibrary.org/sites/default/files/2018-06/Rhetoric_of_the_Inaugural_Address.pdf",
+    "status": "source-located-rights-pending",
+    "rights": "review-required",
+    "translation": "Vlastní pracovní překlad; není oficiální"
+  },
+  {
+    "id": "pres-reviewed-003",
+    "author": "Ronald Reagan",
+    "country": "USA",
+    "text": "Pane Gorbačove, strhněte tuto zeď!",
+    "original": "Mr. Gorbachev, tear down this wall!",
+    "language": "cs",
+    "original_language": "en",
+    "topic": "Svoboda",
+    "source_url": "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin",
+    "status": "source-located-rights-pending",
+    "rights": "review-required",
+    "translation": "Vlastní pracovní překlad; není oficiální"
+  },
+  {
+    "id": "pres-reviewed-004",
+    "author": "Nelson Mandela",
+    "country": "Jihoafrická republika",
+    "text": "Vzdělání je nejmocnější zbraň, kterou můžeme použít ke změně světa.",
+    "original": "Education is the most powerful weapon which you can use to change the world.",
+    "language": "cs",
+    "original_language": "en",
+    "topic": "Vzdělání",
+    "source_url": "https://www.nelsonmandela.org/nelson-mandela-100/",
+    "status": "source-located-rights-pending",
+    "rights": "review-required",
+    "translation": "Vlastní pracovní překlad; není oficiální"
+  },
+  {
+    "id": "pres-reviewed-005",
+    "author": "Nelson Mandela",
+    "country": "Jihoafrická republika",
+    "text": "Skutečný vůdce využije každé téma k tomu, abychom z diskuse vyšli silnější a jednotnější.",
+    "original": "A real leader uses every issue, no matter how serious and sensitive, to ensure that at the end of the debate we should emerge stronger and more united than ever before.",
+    "language": "cs",
+    "original_language": "en",
+    "topic": "Vedení",
+    "source_url": "https://www.nelsonmandela.org/nelson-mandela-100/",
+    "status": "source-located-rights-pending",
+    "rights": "review-required",
+    "translation": "Vlastní pracovní překlad; není oficiální"
+  }
+]
