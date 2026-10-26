@@ -2435,5 +2435,18 @@
     "rights": "krátká citace; posoudit podmínky užití",
     "audience": "secondary",
     "verification": "primary-or-institutional-source"
+  },
+  {
+    "id": "masaryk-nebat-se-nekrast",
+    "text": "Nebát se a nekrást.",
+    "language": "cs",
+    "topic": "Odpovědnost",
+    "author": "Tomáš Garrigue Masaryk",
+    "work_title": "Projev z roku 1913",
+    "source": "Veřejně doložený Masarykův výrok",
+    "source_url": "https://www.muzeum3000.cz/",
+    "rights": "krátká citace s uvedením autora",
+    "audience": "all",
+    "verification": "attributed"
   }
 ]
