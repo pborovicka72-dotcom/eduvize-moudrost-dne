@@ -538,5 +538,29 @@
     "rights": "PD-old-70",
     "audience": "all",
     "verification": "secondary-citation; primary source pending"
+  },
+  {
+    "id": "masaryk-hovory-001",
+    "text": "Chceme vědět, musíme vědět, které poznání je platné, správné a bezpečné.",
+    "language": "cs",
+    "topic": "Věda",
+    "author": "Tomáš Garrigue Masaryk",
+    "work_title": "Hovory s T. G. Masarykem – Záruky poznání",
+    "source_url": "https://cs.wikisource.org/wiki/Hovory_s_T._G._Masarykem/Z%C3%A1ruky_pozn%C3%A1n%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "masaryk-hovory-002",
+    "text": "Chceme jenom pravdu, usilujeme o pravdu pořád a jsme kdykoliv ochotni uznat svůj omyl, opravit své poznatky nebo přijmout poznání lepší.",
+    "language": "cs",
+    "topic": "Vzdělání",
+    "author": "Tomáš Garrigue Masaryk",
+    "work_title": "Hovory s T. G. Masarykem – Záruky poznání",
+    "source_url": "https://cs.wikisource.org/wiki/Hovory_s_T._G._Masarykem/Z%C3%A1ruky_pozn%C3%A1n%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
   }
 ]
