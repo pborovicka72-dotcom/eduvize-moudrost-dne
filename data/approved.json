@@ -562,5 +562,77 @@
     "rights": "PD-old-70",
     "audience": "secondary",
     "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-hodnoceni-1",
+    "text": "Dle jeho hodnocení lze poznali člověka.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Hodnocení č. 1",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/Hodnocen%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-hodnoceni-2",
+    "text": "Kritika předpokládá měřítko, tedy předsudek.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Hodnocení č. 2",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/Hodnocen%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-hodnoceni-3",
+    "text": "Cenu má jen to, co si přejeme.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Hodnocení č. 3",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/Hodnocen%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-opovrzeni-9",
+    "text": "Opovrhuji lží, protože jest malicherná.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Opovržení č. 9",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/Opovr%C5%BEen%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-opovrzeni-7",
+    "text": "Nebažte po vyznamenáních, hleďte spíše býti tak velkými (tak vyniknouti), abyste žádných nepotřebovali.",
+    "language": "cs",
+    "topic": "Odvaha",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Opovržení č. 7",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/Opovr%C5%BEen%C3%AD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
+  },
+  {
+    "id": "tilsch-zivot-prakticky-42",
+    "text": "Vážný život od dětské hry rozeznává se větší malicherností „vážného života“.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Emanuel Tilsch",
+    "work_title": "Aforismy a myšlenky (1916), Život praktický č. 42",
+    "source_url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky/%C5%BDivot%20praktick%C3%BD",
+    "rights": "PD-old-70",
+    "audience": "secondary",
+    "verification": "primary-source"
   }
 ]
