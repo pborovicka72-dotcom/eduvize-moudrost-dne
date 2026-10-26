@@ -1362,5 +1362,44 @@
     "rights": "citace – §31; posoudit účel užití",
     "audience": "all",
     "verification": "primary-source"
+  },
+  {
+    "id": "havel-nadeje",
+    "text": "Naděje prostě není optimismus. Není to přesvědčení, že něco dobře dopadne, ale jistota, že má něco smysl – bez ohledu na to, jak to dopadne.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Václav Havel",
+    "work_title": "Dálkový výslech, rozhovor s Karlem Hvížďalou",
+    "source": "Knihovna Václava Havla – archiv a dokumentace",
+    "source_url": "https://archive.vaclavhavel.cz/Archive/Detail/57181?DocYear=1998&Language=French&SearchType=Basic&SortType=OriginAsc&ViewType=Correspondence",
+    "rights": "krátká citace – posoudit podmínky §31",
+    "audience": "all",
+    "verification": "documented-archive"
+  },
+  {
+    "id": "havel-pravda-laska",
+    "text": "Pravda a láska musí zvítězit nad lží a nenávistí.",
+    "language": "cs",
+    "topic": "Odvaha",
+    "author": "Václav Havel",
+    "work_title": "Projev z balkonu Melantrichu, 10. prosince 1989",
+    "source": "Knihovna Václava Havla – archiv a dokumentace",
+    "source_url": "https://www.vaclavhavel.cz/cs/index/novinky/807/pondeli-11-prosinec-1989",
+    "rights": "krátká citace – posoudit podmínky §31",
+    "audience": "all",
+    "verification": "documented-archive"
+  },
+  {
+    "id": "havel-pravda-svoboda",
+    "text": "Pravda a svoboda musí zvítězit!",
+    "language": "cs",
+    "topic": "Odvaha",
+    "author": "Václav Havel",
+    "work_title": "Projev na Letenské pláni, listopad 1989",
+    "source": "Knihovna Václava Havla – archiv a dokumentace",
+    "source_url": "https://www.vaclavhavel.cz/cs/index/novinky/807/pondeli-11-prosinec-1989",
+    "rights": "krátká citace – posoudit podmínky §31",
+    "audience": "all",
+    "verification": "documented-archive"
   }
 ]
