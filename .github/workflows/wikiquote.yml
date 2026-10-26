@@ -1,4 +1,4 @@
-name: Import Wikicitáty for review
+name: Update licence-verified Wikiquote citations
 on:
   workflow_dispatch:
   schedule:
@@ -6,18 +6,18 @@ on:
 permissions:
   contents: write
 jobs:
-  import:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Import category candidates
+      - name: Update licence-verified quotes only
         run: python scripts/import_wikiquote.py
-      - name: Commit pending candidates
+      - name: Commit automatically eligible quotes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pending.json
-          git diff --cached --quiet || (git commit -m "Queue Wikiquote candidates for review" && git push)
+          git add data/approved.json
+          git diff --cached --quiet || (git commit -m "Publish licence-verified Wikiquote content" && git push)
