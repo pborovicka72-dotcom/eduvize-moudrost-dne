@@ -3624,5 +3624,17 @@
     "rights": "krátká citace; české znění",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "levi-brain",
+    "text": "Naštěstí mi mozek stále funguje.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Rita Levi-Montalcini",
+    "source": "Rozhovor pro Corriere della Sera, 2009",
+    "source_url": "https://www.corriere.it/politica/09_aprile_12/cazzullo_montalcini_6eb9d9f2-2736-11de-8b6f-00144f02aabc_print.html",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
