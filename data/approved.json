@@ -4212,5 +4212,41 @@
     "rights": "krátký úryvek; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "kurosawa-artist",
+    "text": "Být umělcem znamená nikdy neodvracet oči.",
+    "language": "cs",
+    "topic": "Film a vyprávění",
+    "author": "Akira Kurosawa",
+    "source": "Výrok uváděný v souvislosti s režisérovou tvorbou",
+    "source_url": "https://bigother.com/2019/03/23/to-be-an-artist-means-never-to-avert-ones-eyes/",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kurosawa-work",
+    "text": "O tvůrci nic nevypovídá víc než jeho vlastní dílo.",
+    "language": "cs",
+    "topic": "Film a vyprávění",
+    "author": "Akira Kurosawa",
+    "source": "Autobiografické vyjádření, citované v profilu režiséra",
+    "source_url": "https://bigother.com/2019/03/23/to-be-an-artist-means-never-to-avert-ones-eyes/",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kurosawa-home",
+    "text": "Považuji Zemi za svůj domov.",
+    "language": "cs",
+    "topic": "Film a vyprávění",
+    "author": "Akira Kurosawa",
+    "source": "Citované vyjádření o cestování a světě",
+    "source_url": "https://bigother.com/2019/03/23/to-be-an-artist-means-never-to-avert-ones-eyes/",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
