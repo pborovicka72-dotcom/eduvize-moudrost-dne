@@ -3528,5 +3528,65 @@
     "rights": "krátká citace; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "barnard-risk",
+    "text": "Největší riziko v životě je žádné riziko nepodstoupit.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Christiaan Barnard",
+    "source": "Rozhovor pro Time, 2001",
+    "source_url": "https://content.time.com/time/subscriber/article/0,33009,173533,00.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "barnard-heart",
+    "text": "Srdce je koneckonců jen pumpa.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Christiaan Barnard",
+    "source": "Rozhovor pro Time, 2001",
+    "source_url": "https://content.time.com/time/subscriber/article/0,33009,173533,00.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "barnard-scorpions",
+    "text": "Fascinovalo mě, že samice štíra po páření zabije samce. Jsem rád, že to tak u lidí není.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Christiaan Barnard",
+    "source": "Rozhovor pro Time, 2001; zkráceno",
+    "source_url": "https://content.time.com/time/subscriber/article/0,33009,173533,00.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "sacks-unique",
+    "text": "Nikdy tu nebyl a nebude nikdo úplně stejný jako my.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Oliver Sacks",
+    "source": "Esej My Own Life, 2015",
+    "source_url": "https://www.americamagazine.org/ignatian-educator/2015/02/19/testimony-oliver-sacks/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "sacks-gratitude",
+    "text": "Nemohu tvrdit, že nemám strach. Ale převládá ve mně vděčnost.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Oliver Sacks",
+    "source": "Esej My Own Life, 2015",
+    "source_url": "https://www.americamagazine.org/ignatian-educator/2015/02/19/testimony-oliver-sacks/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
