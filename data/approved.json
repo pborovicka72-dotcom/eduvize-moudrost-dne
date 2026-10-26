@@ -5340,5 +5340,53 @@
     "rights": "krátký úryvek; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "simek-four-girls",
+    "text": "Mám tři holky, s manželkou vlastně čtyři.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miloslav Šimek",
+    "source": "Rozhovor pro Květy (1976), přetištěný Deníkem (2018)",
+    "source_url": "https://www.denik.cz/magazin/zlate-rozhovory-deniku-ctime-partu-a-kamaradstvi-rikal-miloslav-simek-20180702.html",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "simek-only-ushers",
+    "text": "Měli bychom správně naše představení dohrávat pouze pro uvaděčky, technický personál a nejbližší příbuzné.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miloslav Šimek",
+    "source": "Rozhovor pro Květy (1976), ironická reakce na kritiky",
+    "source_url": "https://www.denik.cz/magazin/zlate-rozhovory-deniku-ctime-partu-a-kamaradstvi-rikal-miloslav-simek-20180702.html",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "simek-friends",
+    "text": "Ctíme partu a kamarádství, protože jenom v takovém prostředí se dá dobře tvořit.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miloslav Šimek",
+    "source": "Rozhovor pro Květy (1976)",
+    "source_url": "https://www.denik.cz/magazin/zlate-rozhovory-deniku-ctime-partu-a-kamaradstvi-rikal-miloslav-simek-20180702.html",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "simek-crowd",
+    "text": "Když je na těchto místech nabito, máme radost.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miloslav Šimek",
+    "source": "Rozhovor pro Květy (1976), o mladých divácích na stání",
+    "source_url": "https://www.denik.cz/magazin/zlate-rozhovory-deniku-ctime-partu-a-kamaradstvi-rikal-miloslav-simek-20180702.html",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
