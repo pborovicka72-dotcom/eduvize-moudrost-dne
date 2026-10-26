@@ -5160,5 +5160,65 @@
     "rights": "krátký úryvek; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "suchy-smich-zivot",
+    "text": "Je vědecky dokázáno, že smích prodlužuje život.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Jiří Suchý",
+    "source": "Rozhovor Českého rozhlasu, 2017",
+    "source_url": "https://praha.rozhlas.cz/prace-je-nejdulezitejsi-v-mem-zivote-rika-jiri-suchy-humor-mu-pomahal-i-v-7301692",
+    "rights": "krátká citace; u zahraničních vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "suchy-nejhorsi",
+    "text": "Bytostně jsem cítil, že jsem tam nejhorší.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Jiří Suchý",
+    "source": "Rozhovor Radiožurnál, 8. 10. 2026",
+    "source_url": "https://radiozurnal.rozhlas.cz/byl-jsem-prvni-rapper-v-ceskoslovensku-tvrdi-jiri-suchy-jak-vzpomina-na-zacatky-9648422",
+    "rights": "krátká citace; u zahraničních vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "suchy-prace",
+    "text": "Prostě píšu, kreslím, skládám, hraju.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Jiří Suchý",
+    "source": "Rozhovor 2004 na osobním webu",
+    "source_url": "https://www.jiri-suchy.cz/titulni-rozhovor-2004/",
+    "rights": "krátká citace; u zahraničních vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "pratchett-young",
+    "text": "Uvnitř každého starého člověka je mladý člověk, který přemýšlí, co se stalo.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Terry Pratchett (vypravěč)",
+    "source": "Moving Pictures; oficiální web autora",
+    "source_url": "https://terrypratchett.com/books/the-wit-and-wisdom-of-discworld/",
+    "rights": "krátká citace; u zahraničních vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "pratchett-snoring",
+    "text": "Manželství tvoří dva lidé, z nichž každý přísahá, že chrápe jen ten druhý.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Terry Pratchett (vypravěč)",
+    "source": "The Fifth Elephant; oficiální web autora",
+    "source_url": "https://terrypratchett.com/books/the-wit-and-wisdom-of-discworld/",
+    "rights": "krátká citace; u zahraničních vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
