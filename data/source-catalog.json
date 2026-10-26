@@ -33,5 +33,37 @@
     "language": "cs",
     "status": "source-index",
     "focus": "původní eseje a prózy"
+  },
+  {
+    "author": "Tomáš Garrigue Masaryk",
+    "work": "O ethice a alkoholismu",
+    "url": "https://cs.wikisource.org/wiki/O_ethice_a_alkoholismu",
+    "language": "cs",
+    "status": "source-found",
+    "focus": "svobodná práce a samostatné myšlení"
+  },
+  {
+    "author": "Svetozár Hurban-Vajanský",
+    "work": "Povedomie",
+    "url": "https://sk.wikisource.org/wiki/Povedomie",
+    "language": "sk",
+    "status": "source-found",
+    "focus": "slovenská literatura; zkoumat jednotlivé samostatné výroky"
+  },
+  {
+    "author": "Milan Jovanović-Batut",
+    "work": "Abeceda zdraví a nemoci – Pracuj, odpočívej",
+    "url": "https://cs.wikisource.org/wiki/Abeceda_zdrav%C3%AD_a_nemoci/Abeceda_zdrav%C3%AD/V._Pracuj%2C_odpo%C4%8D%C3%ADvej_a_v%C5%A1eho_s_m%C4%9Brou_u%C5%BE%C3%ADvej",
+    "language": "cs",
+    "status": "source-found",
+    "focus": "práce a odpočinek; ověřit překlad Karla Bulíře"
+  },
+  {
+    "author": "Slovenští autoři – index",
+    "work": "Wikizdroje: Autori",
+    "url": "https://sk.wikisource.org/wiki/Kateg%C3%B3ria:Autori",
+    "language": "sk",
+    "status": "source-index",
+    "focus": "Hviezdoslav, Štúr, Sládkovič a další"
   }
 ]
