@@ -1,0 +1,44 @@
+[
+  {
+    "id": "love-verified-001",
+    "author": "Antoine de Saint-Exupéry",
+    "text": "Milovat neznamená dívat se jeden na druhého, ale hledět společně stejným směrem.",
+    "original": "aimer ce n'est point nous regarder l'un l'autre mais regarder ensemble dans la même direction",
+    "work": "Terre des hommes (Země lidí), 1939, s. 225 v edici Le Livre de Poche",
+    "source_url": "https://fr.wikiquote.org/wiki/Terre_des_hommes",
+    "verification": "secondary-source-with-work-page",
+    "rights": "review-required",
+    "language": "cs",
+    "topic": "Láska",
+    "status": "candidate-source-traced",
+    "note": "Před automatickým zveřejněním zkontrolovat původní vydání a licenční režim."
+  },
+  {
+    "id": "love-verified-002",
+    "author": "Seneca",
+    "text": "Nic nepotěší mysl tolik jako věrné a příjemné přátelství.",
+    "original": "Yet nothing delights the mind so much as faithful and pleasant friendship",
+    "work": "De tranquillitate animi, anglický překlad v Minor Dialogues",
+    "source_url": "https://www.gutenberg.org/files/64576/64576-h/64576-h.htm",
+    "verification": "text-found-in-public-domain-translation",
+    "rights": "original-PD; Czech translation newly authored",
+    "language": "cs",
+    "topic": "Láska",
+    "status": "candidate-source-traced",
+    "note": "Před automatickým zveřejněním zkontrolovat původní vydání a licenční režim."
+  },
+  {
+    "id": "love-verified-003",
+    "author": "Erich Maria Remarque",
+    "text": "Člověk bez lásky je jen mrtvola na dovolené.",
+    "original": null,
+    "work": "Velká encyklopedie citátů a přísloví, Academia 1996, s. 154 (sekundární atribuce)",
+    "source_url": "https://cs.wikiquote.org/wiki/Erich_Maria_Remarque",
+    "verification": "secondary-attribution-only",
+    "rights": "review-required",
+    "language": "cs",
+    "topic": "Láska",
+    "status": "candidate-not-approved",
+    "note": "Před automatickým zveřejněním zkontrolovat původní vydání a licenční režim."
+  }
+]
