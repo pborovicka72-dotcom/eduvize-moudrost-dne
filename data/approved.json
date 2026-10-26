@@ -3996,5 +3996,113 @@
     "rights": "krátká citace; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "amundsen-victory",
+    "text": "Vítězství čeká toho, kdo má všechno v pořádku. Lidé tomu říkají štěstí.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Roald Amundsen",
+    "source": "The South Pole, 1912",
+    "source_url": "https://www.gutenberg.org/ebooks/4229",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "amundsen-defeat",
+    "text": "Porážka čeká toho, kdo zanedbal včasná opatření. Lidé tomu říkají smůla.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Roald Amundsen",
+    "source": "The South Pole, 1912",
+    "source_url": "https://www.gutenberg.org/ebooks/4229",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "shackleton-optimism",
+    "text": "Optimismus je skutečná morální odvaha.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Ernest Shackleton",
+    "source": "South, 1919",
+    "source_url": "https://www.gutenberg.org/ebooks/5199",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "shackleton-difficulties",
+    "text": "Obtíže jsou jen věci, které je třeba překonat.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Ernest Shackleton",
+    "source": "South, 1919",
+    "source_url": "https://www.gutenberg.org/ebooks/5199",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "cousteau-love",
+    "text": "Lidé chrání to, co milují.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Jacques-Yves Cousteau",
+    "source": "Citováno v odkazu Cousteau Society",
+    "source_url": "https://www.cousteau.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "cousteau-water",
+    "text": "Voda a vzduch, dvě základní tekutiny života, se staly světovými popelnicemi.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Jacques-Yves Cousteau",
+    "source": "The Cousteau Society",
+    "source_url": "https://www.cousteau.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "heyerdahl-borders",
+    "text": "Hranice? Nikdy jsem žádnou neviděl. Slyšel jsem ale, že existují v myslích některých lidí.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Thor Heyerdahl",
+    "source": "Citovaný výrok o cestování",
+    "source_url": "https://www.kon-tiki.no/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "earhart-adventure",
+    "text": "Dobrodružství má hodnotu samo o sobě.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Amelia Earhartová",
+    "source": "The Fun of It (1932)",
+    "source_url": "https://www.gutenberg.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "earhart-fear",
+    "text": "Obavy jsou papíroví tygři.",
+    "language": "cs",
+    "topic": "Cestování a odvaha",
+    "author": "Amelia Earhartová",
+    "source": "The Fun of It (1932)",
+    "source_url": "https://www.gutenberg.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
