@@ -1,0 +1,238 @@
+{
+  "description": "Rozšíření databáze: všechny uživatelem schválené skupiny osobností a témata. Připraveno pro postupné ověřování citátů.",
+  "people_categories": {
+    "inventors": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Leonardo da Vinci",
+      "Steve Jobs",
+      "Alan Turing"
+    ],
+    "explorers": [
+      "Marco Polo",
+      "Roald Amundsen",
+      "Thor Heyerdahl",
+      "Jacques-Yves Cousteau",
+      "Miroslav Zikmund"
+    ],
+    "sports": [
+      "Emil Zátopek",
+      "Muhammad Ali",
+      "Michael Jordan",
+      "Pelé",
+      "Martina Navrátilová"
+    ],
+    "music": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "John Lennon",
+      "Freddie Mercury",
+      "Bob Dylan"
+    ],
+    "film": [
+      "Charlie Chaplin",
+      "Alfred Hitchcock",
+      "Miloš Forman",
+      "Jan Werich",
+      "Audrey Hepburnová"
+    ],
+    "educators": [
+      "Jan Amos Komenský",
+      "Maria Montessori",
+      "John Dewey",
+      "Rudolf Steiner",
+      "Ken Robinson"
+    ],
+    "entrepreneurs": [
+      "Tomáš Baťa",
+      "Henry Ford",
+      "Walt Disney",
+      "Steve Jobs",
+      "Bill Gates"
+    ],
+    "psychologists": [
+      "Sigmund Freud",
+      "Carl Gustav Jung",
+      "Viktor Frankl",
+      "Abraham Maslow"
+    ],
+    "astronauts": [
+      "Neil Armstrong",
+      "Jurij Gagarin",
+      "Buzz Aldrin",
+      "Jim Lovell",
+      "Vladimír Remek"
+    ],
+    "women": [
+      "Marie Curie-Skłodowská",
+      "Ada Lovelace",
+      "Rosa Parksová",
+      "Florence Nightingaleová",
+      "Jane Goodallová"
+    ]
+  },
+  "topic_categories": [
+    "Vzdělání, poznání a zvědavost",
+    "Chyby, neúspěch a vytrvalost",
+    "Přátelství, laskavost a mezilidské vztahy",
+    "Příroda, životní prostředí a zvířata",
+    "Čas, život a štěstí",
+    "Dětská moudrost a humor"
+  ],
+  "quote_candidates": [
+    {
+      "id": "expansion-20261026-001",
+      "author": "Neil Armstrong",
+      "text": "To je malý krok pro člověka, ale obrovský skok pro lidstvo.",
+      "original": "That's one small step for [a] man, one giant leap for mankind.",
+      "source": "Apollo 11 lunar surface transmission, 20 July 1969",
+      "source_url": "https://www.nasa.gov/history/alsj/a11/a11.step.html",
+      "person_categories": [
+        "astronauts"
+      ],
+      "topics": [
+        "Vzdělání, poznání a zvědavost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-002",
+      "author": "John Dewey",
+      "text": "Vzdělání není přípravou na život; vzdělání je život sám.",
+      "original": "Education is not preparation for life; education is life itself.",
+      "source": "Often attributed to Dewey; exact primary wording unconfirmed",
+      "source_url": null,
+      "person_categories": [
+        "educators"
+      ],
+      "topics": [
+        "Vzdělání, poznání a zvědavost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-003",
+      "author": "Jane Goodallová",
+      "text": "To, co děláte, má význam, a musíte se rozhodnout, jaký význam chcete mít.",
+      "original": "What you do makes a difference, and you have to decide what kind of difference you want to make.",
+      "source": "Jane Goodall Institute quotation, primary origin to confirm",
+      "source_url": "https://janegoodall.org/",
+      "person_categories": [
+        "women"
+      ],
+      "topics": [
+        "Příroda, životní prostředí a zvířata"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-004",
+      "author": "Maria Montessori",
+      "text": "Pomoz mi, abych to dokázal sám.",
+      "original": "Help me to do it myself.",
+      "source": "Montessori pedagogical motto, exact original publication unconfirmed",
+      "source_url": null,
+      "person_categories": [
+        "educators"
+      ],
+      "topics": [
+        "Vzdělání, poznání a zvědavost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-005",
+      "author": "Rosa Parksová",
+      "text": "Jediná únava, kterou jsem cítila, byla únava z ustupování.",
+      "original": "The only tired I was, was tired of giving in.",
+      "source": "Interview / autobiography attribution; exact source to verify",
+      "source_url": null,
+      "person_categories": [
+        "women"
+      ],
+      "topics": [
+        "Chyby, neúspěch a vytrvalost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-006",
+      "author": "Steve Jobs",
+      "text": "Zůstaňte hladoví. Zůstaňte pošetilí.",
+      "original": "Stay hungry. Stay foolish.",
+      "source": "Stanford commencement speech (2005), originally Whole Earth Catalog",
+      "source_url": "https://news.stanford.edu/stories/2005/06/jobs-061505",
+      "person_categories": [
+        "inventors",
+        "entrepreneurs"
+      ],
+      "topics": [
+        "Chyby, neúspěch a vytrvalost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-007",
+      "author": "Jan Amos Komenský",
+      "text": "Škola budiž dílnou lidskosti.",
+      "original": "Schola sit officina humanitatis.",
+      "source": "Traditional attribution to Comenius; exact primary locus pending",
+      "source_url": null,
+      "person_categories": [
+        "educators"
+      ],
+      "topics": [
+        "Vzdělání, poznání a zvědavost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    },
+    {
+      "id": "expansion-20261026-008",
+      "author": "Muhammad Ali",
+      "text": "Kdo nemá odvahu riskovat, v životě ničeho nedosáhne.",
+      "original": "He who is not courageous enough to take risks will accomplish nothing in life.",
+      "source": "Widely attributed; primary record pending",
+      "source_url": null,
+      "person_categories": [
+        "sports"
+      ],
+      "topics": [
+        "Chyby, neúspěch a vytrvalost"
+      ],
+      "language": "cs",
+      "status": "candidate-needs-quote-and-rights-review",
+      "rights": "review-required",
+      "translation": "pracovní český překlad nebo tradiční česká podoba",
+      "note": "Nepublikovat automaticky před ověřením primárního zdroje a licenčního režimu."
+    }
+  ],
+  "publication_policy": "Only verified, properly licensed quotes move into approved.json. Never invent quotes. Deduplicate by normalized original + author; allow multiple category tags."
+}
