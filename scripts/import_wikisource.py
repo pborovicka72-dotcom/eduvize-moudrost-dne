@@ -5,19 +5,36 @@ import hashlib,html,json,pathlib,re,urllib.parse,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 API="https://cs.wikisource.org/w/api.php"
 CATEGORIES=["Přísloví","Rčení","Aforismy"]
-ALLOWED={"PD-traditional":"PD-traditional","PD-old":"PD-old","PD-70":"PD-70","CC0":"CC0-1.0","CC-BY-4.0":"CC-BY-4.0","CC-BY-SA-4.0":"CC-BY-SA-4.0"}
+ALLOWED={
+ "PD-traditional":("PD-traditional",None),
+ "PD-old":("PD-old",None),
+ "PD-old-70":("PD-old-70",None),
+ "CC0":("CC0-1.0","https://creativecommons.org/publicdomain/zero/1.0/"),
+ "CC0-1.0":("CC0-1.0","https://creativecommons.org/publicdomain/zero/1.0/"),
+ "CC-by-4.0":("CC-BY-4.0","https://creativecommons.org/licenses/by/4.0/"),
+ "CC-by-sa-4.0":("CC-BY-SA-4.0","https://creativecommons.org/licenses/by-sa/4.0/")
+}
+# Attribution-requiring licences need a verified author / rights-holder field.
+ATTRIBUTION_REQUIRED={"CC-BY-4.0","CC-BY-SA-4.0"}
 def api(params):
     url=API+"?"+urllib.parse.urlencode({"action":"query","format":"json","formatversion":"2",**params})
     req=urllib.request.Request(url,headers={"User-Agent":"EduvizeWisdom/0.3 (https://github.com/pborovicka72-dotcom/eduvize-moudrost-dne)"})
     with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
 def licence(text):
-    # Only explicitly tagged work licences. Do not infer from site-wide CC BY-SA.
-    tags=re.findall(r"\{\{\s*((?:PD[- ][\w-]+)|(?:CC[- ][\w. -]+))\s*(?:\||\}\})",text,re.I)
-    for tag in tags:
-        normalized=re.sub(r"\s+","-",tag.strip()).upper()
-        for key,value in ALLOWED.items():
-            if normalized==key.upper():return value
-    return None
+    # Explicit work-level licence; site-wide footer is not evidence.
+    names=re.findall(r"\\{\\{\\s*([^|{}\\n]+)",text)
+    normalized=[re.sub(r"[_\\s]+","-",name.strip()).lower() for name in names]
+    if any("nc" in name.split("-") or "nd" in name.split("-") or "copyright" in name or "copyvio" in name for name in normalized):
+        return None
+    found={key:entry for name in normalized for key,entry in ALLOWED.items() if name==key.lower()}
+    # Ambiguous multiple licences require manual legal interpretation: skip.
+    return next(iter(found.values())) if len(found)==1 else None
+def author_from_metadata(text):
+    # Never misrepresent the title of a page as the author.
+    match=re.search(r"\\|\\s*(?:autor|author)\\s*=\\s*([^|{}\\n]+)",text,re.I)
+    if not match:return None
+    name=match.group(1).strip()
+    return name if 2<=len(name)<=100 and not any(x in name for x in ("[","]","<",">")) else None
 def extract(text):
     # Strict: one short, unformatted text line, not editorial commentary or a fragment of a longer work.
     text=re.sub(r"<ref\b[^>]*>.*?</ref>","",text,flags=re.I|re.S)
@@ -46,13 +63,16 @@ def main():
                 if not revisions:continue
                 text=revisions[0].get("slots",{}).get("main",{}).get("content","")
                 inspected+=1
-                rights=licence(text)
-                if not rights:continue
+                license_info=licence(text)
+                if not license_info:continue
+                rights,license_url=license_info
+                author=author_from_metadata(text)
+                if rights in ATTRIBUTION_REQUIRED and not author:continue
                 quote=extract(text)
                 if not quote:continue
                 uid=hashlib.sha256(("cs|"+title+"|"+quote).encode()).hexdigest()[:16]
                 if uid in seen:continue
-                existing.append({"id":uid,"text":quote,"language":"cs","topic":category,"author":title,"source":"Wikizdroje","source_url":"https://cs.wikisource.org/wiki/"+urllib.parse.quote(title.replace(" ","_")),"rights":rights})
+                existing.append({"id":uid,"text":quote,"language":"cs","topic":category,"author":author or "Autor neuveden","work_title":title,"source":"Wikizdroje","source_url":"https://cs.wikisource.org/wiki/"+urllib.parse.quote(title.replace(" ","_")),"rights":rights,"license_url":license_url,"modified":False})
                 seen.add(uid);added+=1
             if "continue" not in response:break
             continuation=response["continue"]
