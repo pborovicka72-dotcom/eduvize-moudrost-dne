@@ -634,5 +634,18 @@
     "rights": "PD-old-70",
     "audience": "secondary",
     "verification": "primary-source"
+  },
+  {
+    "id": "twain-equator-15-1897",
+    "text": "Pravda je podivnější než fikce. Fikce se totiž musí držet toho, co je možné. Pravda nemusí.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Mark Twain",
+    "work_title": "Following the Equator (1897), kapitola XV",
+    "source": "Původní anglický text; vlastní český překlad Eduvize",
+    "source_url": "https://www.gutenberg.org/ebooks/2895",
+    "rights": "PD-old-70; vlastní překlad",
+    "audience": "all",
+    "verification": "primary-source"
   }
 ]
