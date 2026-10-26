@@ -2568,5 +2568,77 @@
     "rights": "krátká citace",
     "audience": "all",
     "verification": "primary-source"
+  },
+  {
+    "id": "jordan-failure-1997",
+    "text": "Selhával jsem znovu a znovu. A právě proto jsem uspěl.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Michael Jordan",
+    "source": "Nike: 9,000 Shots (1997), výrok pronesený Jordanem v reklamě",
+    "source_url": "https://www.warc.com/en/article/nike%2C-inc.%3A-9%2C000-shots-campaign-1ed28d78d752435e9fcd1da28463f463",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "jordan-teamwork-1994",
+    "text": "Talent vyhrává zápasy, ale týmová práce a inteligence vyhrávají šampionáty.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Michael Jordan",
+    "source": "I Can't Accept Not Trying (1994)",
+    "source_url": "https://graciousquotes.com/quotes-with-sources/michael-jordan/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lauda-second-1975",
+    "text": "Být druhý je stejně špatné jako skončit poslední.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Niki Lauda",
+    "source": "Der Spiegel, 27. 7. 1975",
+    "source_url": "https://nikilauda.org/quotes/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lauda-work-1977",
+    "text": "Mechanik má šroubovat, inženýr kreslit a já mám řídit.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Niki Lauda",
+    "source": "Der Spiegel, září 1977",
+    "source_url": "https://nikilauda.org/quotes/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lauda-improve-2017",
+    "text": "I na stupních vítězů jsem přemýšlel, co jsem mohl udělat lépe.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Niki Lauda",
+    "source": "Motor Sport, listopad 2017",
+    "source_url": "https://nikilauda.org/quotes/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lauda-australia-1982",
+    "text": "Je snazší vyhrát tři tituly mistra světa než získat letecká práva do Austrálie.",
+    "language": "cs",
+    "topic": "Sport",
+    "author": "Niki Lauda",
+    "source": "Výrok o leteckém podnikání",
+    "source_url": "https://nikilauda.org/quotes/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
