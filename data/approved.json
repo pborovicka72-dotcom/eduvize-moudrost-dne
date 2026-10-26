@@ -4788,5 +4788,77 @@
     "rights": "krátká citace; český překlad u zahraničních autorů",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "gott-singing",
+    "text": "Když jsem zpozoroval, že se k ničemu jinému nehodím.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Karel Gott",
+    "source": "Odpověď na otázku, co jej přivedlo ke zpívání; Mladý svět 1962",
+    "source_url": "https://zeny.iprima.cz/celebrity/prvni-rozhovor-karla-gotta-oblibeny-sport-jezdit-v-prazskych-tramvajich-pocet-deti-neznam",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "gott-music-future",
+    "text": "Při každém koncertu, při každé písni cítím zodpovědnost k publiku.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Karel Gott",
+    "source": "Rozhovor pro týdeník Téma, přetištěno iDNES 2019",
+    "source_url": "https://www.idnes.cz/kultura/hudba/karel-gott-rozhovor-slavik.A191009_182432_hudba_jum",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "gott-singing-joy",
+    "text": "Zpívání mě stále baví.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Karel Gott",
+    "source": "Rozhovor pro Deník, 2012",
+    "source_url": "https://www.denik.cz/hudba/karel-gott-dokud-jsem-ve-forme-20121005-ns9u.html",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "eminem-write",
+    "text": "Když několik týdnů nepíšu, musím se zase pustit do psaní.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Eminem",
+    "source": "Rozhovor pro The Guardian, 2009; zkrácený překlad",
+    "source_url": "https://www.theguardian.com/music/2009/may/17/eminem-urban-music-relapse",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "eminem-emotion",
+    "text": "Chcete-li oslovit běžného posluchače, musíte používat slova, která vyvolávají emoce.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Eminem",
+    "source": "Rozhovor BBC Radio 1, 2002",
+    "source_url": "https://www.eminem.net/interviews/bbc-radio-1-2002/",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "eminem-perfect",
+    "text": "Při nahrávání se snažím, aby můj přednes byl pokaždé dokonalý.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Eminem",
+    "source": "AOL Chat, červen 2000",
+    "source_url": "https://eminem.news/eminem-aol-chat-transcript-june-2000.html",
+    "rights": "krátká citace; u anglických vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
