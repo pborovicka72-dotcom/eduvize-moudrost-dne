@@ -4248,5 +4248,65 @@
     "rights": "krátký úryvek; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "miyamoto-fun",
+    "text": "Raději bych vytvořil něco, co ani není hra, ale všechny to baví, než hru, která není zábavná.",
+    "language": "cs",
+    "topic": "Hry a kreativita",
+    "author": "Shigeru Miyamoto",
+    "source": "Nintendo Iwata Asks: Super Mario Galaxy",
+    "source_url": "https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-Super-Mario-Galaxy/Volume-4-Shigeru-Miyamoto/2-It-s-Fun-Just-Playing-Around/2-It-s-Fun-Just-Playing-Around-220674.html",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "miyamoto-trial",
+    "text": "Hry jsou zábavné díky neustálému zkoušení a hledání nových řešení.",
+    "language": "cs",
+    "topic": "Hry a kreativita",
+    "author": "Shigeru Miyamoto",
+    "source": "Nintendo Ask the Developer: Pikmin 4",
+    "source_url": "https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-10-pikmin-4-part-1/",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "miyamoto-understand",
+    "text": "Dobrá hra musí být srozumitelná na první pohled.",
+    "language": "cs",
+    "topic": "Hry a kreativita",
+    "author": "Shigeru Miyamoto",
+    "source": "Nintendo Iwata Asks: New Super Mario Bros. Wii",
+    "source_url": "https://www.nintendo.com/en-za/Iwata-Asks/Iwata-Asks-New-Super-Mario-Bros-Wii/Iwata-Asks-New-Super-Mario-Bros-Wii-Vol1/1-Mario-Couldn-t-Jump-At-First/1-Mario-Couldn-t-Jump-At-First-210699.html",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kojima-boundaries",
+    "text": "Ať vytvoříte cokoli, vždy narazíte na nějaké hranice.",
+    "language": "cs",
+    "topic": "Hry a kreativita",
+    "author": "Hideo Kojima",
+    "source": "Rozhovor pro Game Informer, 2015",
+    "source_url": "https://gameinformer.com/b/features/archive/2015/07/09/hideo-kojima-the-full-interview",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kojima-experiment",
+    "text": "Pořád mám další věci, které chci vyprávět, sdělit a vyzkoušet.",
+    "language": "cs",
+    "topic": "Hry a kreativita",
+    "author": "Hideo Kojima",
+    "source": "Rozhovor pro Game Informer, 2015",
+    "source_url": "https://gameinformer.com/b/features/archive/2015/07/09/hideo-kojima-the-full-interview",
+    "rights": "krátký úryvek; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
