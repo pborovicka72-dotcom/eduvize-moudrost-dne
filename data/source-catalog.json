@@ -65,5 +65,48 @@
     "language": "sk",
     "status": "source-index",
     "focus": "Hviezdoslav, Štúr, Sládkovič a další"
+  },
+  {
+    "author": "Mark Twain",
+    "work": "Mark Twain Project Online – critical editions",
+    "url": "https://mtpo2.org/",
+    "language": "en",
+    "status": "authoritative-primary-archive",
+    "focus": "humor, education, observation; translate independently",
+    "notes": "UC Berkeley edited texts, verify exact work and location"
+  },
+  {
+    "author": "Mark Twain",
+    "work": "Quotations from Project Gutenberg Editions",
+    "url": "https://www.gutenberg.org/ebooks/3432",
+    "language": "en",
+    "status": "candidate-anthology",
+    "focus": "short humorous passages; cross-check in original works"
+  },
+  {
+    "author": "Albert Einstein",
+    "work": "Albert Einstein Archives – Hebrew University",
+    "url": "https://en.huji.ac.il/einstein",
+    "language": "en/de",
+    "status": "authoritative-archive",
+    "focus": "curiosity, imagination, science; review rights",
+    "notes": "University states rights to Einstein writings; check before commercial reuse"
+  },
+  {
+    "author": "Albert Einstein",
+    "work": "1929 interview on imagination – documented source",
+    "url": "https://quotle.info/who-said/imagination-is-more-important-than-knowledge/",
+    "language": "en",
+    "status": "attribution-verified-candidate",
+    "focus": "imagination and knowledge",
+    "notes": "Secondary research links to original interview; verify rights and translate independently"
+  },
+  {
+    "author": "Marie Curie",
+    "work": "Nobel lecture 1911 – Radium and the New Concepts in Chemistry",
+    "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/lecture/",
+    "language": "en",
+    "status": "primary-speech",
+    "focus": "science and discovery; verify translation rights"
   }
 ]
