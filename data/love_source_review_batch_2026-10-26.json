@@ -1,0 +1,164 @@
+{
+  "records": [
+    {
+      "id": "love-primary-001",
+      "author": "Victor Hugo",
+      "text": "Milovat nebo být milován – to stačí.",
+      "original_excerpt": "Aimer ou avoir aimé, cela suffit.",
+      "source": "Bídníci, IV",
+      "source_url": "https://www.gutenberg.org/cache/epub/17519/pg17519-images.html",
+      "source_language": "fr",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-002",
+      "author": "Jane Austenová",
+      "text": "Jsem napůl v mukách, napůl v naději.",
+      "original_excerpt": "I am half agony, half hope.",
+      "source": "Přesvědčování, dopis kapitána Wentwortha",
+      "source_url": "https://www.gutenberg.org/files/105/old/105-h/105-h.htm",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-003",
+      "author": "Oscar Wilde",
+      "text": "Láska je krásnější než nenávist.",
+      "original_excerpt": "Love is more beautiful than hate.",
+      "source": "De Profundis",
+      "source_url": "https://www.gutenberg.org/cache/epub/921/pg921-images.html",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-004",
+      "author": "Platón",
+      "text": "Touha po celistvosti a její hledání se nazývá láska.",
+      "original_excerpt": "The desire and pursuit of the whole is called love.",
+      "source": "Symposion, řeč Aristofana",
+      "source_url": "https://www.gutenberg.org/cache/epub/1600/pg1600-images.html",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-005",
+      "author": "Aristotelés",
+      "text": "Nikdo by si nevybral život bez přátel, i kdyby měl všechny ostatní statky.",
+      "original_excerpt": "No one would choose to live without friends though he should have all the other good things in the world.",
+      "source": "Etika Nikomachova, VIII.1",
+      "source_url": "https://www.gutenberg.org/files/8438/8438-h/8438-h",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-006",
+      "author": "Bertrand Russell",
+      "text": "Láska dává manželství vnitřní hodnotu.",
+      "original_excerpt": "Love is what gives intrinsic value to a marriage.",
+      "source": "Why Men Fight, kapitola VI",
+      "source_url": "https://www.gutenberg.org/files/55610/55610-h/55610-h.htm",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    },
+    {
+      "id": "love-primary-007",
+      "author": "Arthur Schopenhauer",
+      "text": "Vášnivá láska bývá někdy spojena s opravdovým přátelstvím založeným na souladu povah.",
+      "original_excerpt": "Passionate love is sometimes associated with ... real friendship founded on harmony of sentiment.",
+      "source": "Essays, Metaphysics of Love",
+      "source_url": "https://www.gutenberg.org/files/11945/11945-h/11945-h.htm",
+      "source_language": "en",
+      "language": "cs",
+      "topic": "Láska",
+      "status": "primary-text-located-translation-review",
+      "rights": "original-public-domain-likely-verify-jurisdiction",
+      "note": "České znění je nový pracovní překlad nebo zkrácený výňatek; originál v angličtině může být historickým překladem. Literární postavy odlišovat od autora."
+    }
+  ],
+  "unresolved": [
+    {
+      "author": "Antoine de Saint-Exupéry",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Erich Maria Remarque",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Karel Čapek",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Jan Neruda",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Seneca",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Friedrich Nietzsche",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Erich Fromm",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Albert Einstein",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Carl Gustav Jung",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Charlie Chaplin",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "John Lennon",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Audrey Hepburnová",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Matka Tereza",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "Mahátma Gándhí",
+      "status": "pending-primary-source-and-rights-verification"
+    },
+    {
+      "author": "William Shakespeare",
+      "status": "pending-primary-source-and-rights-verification"
+    }
+  ]
+}
