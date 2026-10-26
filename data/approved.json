@@ -3806,18 +3806,6 @@
     "verification": "source-linked"
   },
   {
-    "id": "curie-understand",
-    "text": "V životě se není čeho bát, jen je třeba věcem porozumět.",
-    "language": "cs",
-    "topic": "Věda a poznání",
-    "author": "Marie Curie-Skłodowská",
-    "source": "Tradičně připisovaný výrok; přesný primární zdroj nejistý",
-    "source_url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
-    "rights": "krátká citace; český překlad",
-    "audience": "all",
-    "verification": "unverified-attribution"
-  },
-  {
     "id": "curie-work",
     "text": "Věda má velikou krásu.",
     "language": "cs",
@@ -3828,18 +3816,6 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
-  },
-  {
-    "id": "darwin-adapt",
-    "text": "Nejde o nejsilnější druh, který přežije, ani o nejinteligentnější, ale o ten, který nejlépe reaguje na změnu.",
-    "language": "cs",
-    "topic": "Věda a poznání",
-    "author": "Charles Darwin",
-    "source": "Často mylně připisovaný Darwinovi; formulace pochází z interpretace Leona Megginsona (1963)",
-    "source_url": "https://www.darwinproject.ac.uk/people/about-darwin/six-things-darwin-never-said",
-    "rights": "krátká citace; český překlad",
-    "audience": "all",
-    "verification": "misattributed"
   },
   {
     "id": "darwin-ignorance",
@@ -3897,6 +3873,30 @@
     "author": "Jane Goodallová",
     "source": "Jane Goodall Institute",
     "source_url": "https://janegoodall.org/",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "darwin-grandeur",
+    "text": "V tomto pohledu na život je velkolepost.",
+    "language": "cs",
+    "topic": "Věda a poznání",
+    "author": "Charles Darwin",
+    "source": "O původu druhů, závěrečná věta (1859)",
+    "source_url": "https://www.gutenberg.org/ebooks/1228",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "newton-shoulders",
+    "text": "Jestliže jsem viděl dál, bylo to proto, že jsem stál na ramenou obrů.",
+    "language": "cs",
+    "topic": "Věda a poznání",
+    "author": "Isaac Newton",
+    "source": "Dopis Robertu Hookovi, 1676",
+    "source_url": "https://www.newtonproject.ox.ac.uk/",
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
