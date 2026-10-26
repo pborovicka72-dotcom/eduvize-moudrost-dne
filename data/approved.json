@@ -1437,5 +1437,41 @@
     "rights": "krátká citace – §31, posoudit použití",
     "audience": "secondary",
     "verification": "secondary-source"
+  },
+  {
+    "id": "cimrman-zivot-skola",
+    "text": "Život je nejlepší školou života.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Jára Cimrman",
+    "source": "Cimrmanovské výroky; konkrétní původní dílo dosud neověřeno",
+    "source_url": "https://www.cimrman.at/",
+    "rights": "citace – §31; ověřit původ a podmínky užití",
+    "audience": "all",
+    "verification": "unverified-attribution"
+  },
+  {
+    "id": "cimrman-zbytecne-slovo",
+    "text": "Každé zbytečné slovo je zbytečné.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Jára Cimrman",
+    "source": "Cimrmanovské výroky; konkrétní původní dílo dosud neověřeno",
+    "source_url": "https://www.cimrman.at/",
+    "rights": "citace – §31; ověřit původ a podmínky užití",
+    "audience": "all",
+    "verification": "unverified-attribution"
+  },
+  {
+    "id": "cimrman-historicka-bitva",
+    "text": "Historická bitva často napáchá větší škody v učebnici než na válečném poli.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Jára Cimrman",
+    "source": "Cimrmanovské výroky; konkrétní původní dílo dosud neověřeno",
+    "source_url": "https://www.cimrman.at/",
+    "rights": "citace – §31; ověřit původ a podmínky užití",
+    "audience": "all",
+    "verification": "unverified-attribution"
   }
 ]
