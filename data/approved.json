@@ -4104,5 +4104,77 @@
     "rights": "krátká citace; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "bata-day",
+    "text": "Den má 86 400 vteřin.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Tomáš Baťa",
+    "source": "Úvahy a projevy Tomáše Bati; dobový výrok",
+    "source_url": "https://www.nadacetomasebati.cz/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "bata-service",
+    "text": "Náš zákazník, náš pán.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Tomáš Baťa",
+    "source": "Heslo firmy Baťa",
+    "source_url": "https://www.nadacetomasebati.cz/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "bata-people",
+    "text": "Budovy, stroje a peníze jsou nám k ničemu, nebudeme-li mít schopné lidi.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Tomáš Baťa",
+    "source": "Úvahy a projevy Tomáše Bati",
+    "source_url": "https://www.nadacetomasebati.cz/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "seifert-poetry",
+    "text": "Poezie není věcí jen několika zasvěcených, ale všech lidí.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Jaroslav Seifert",
+    "source": "Nobelova přednáška, 1984",
+    "source_url": "https://www.nobelprize.org/prizes/literature/1984/seifert/lecture/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "hasek-orders",
+    "text": "Vojenské rozkazy se musí poslouchat, i když jsou blbé.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Jaroslav Hašek",
+    "source": "Osudy dobrého vojáka Švejka",
+    "source_url": "https://cs.wikisource.org/wiki/Osudy_dobr%C3%A9ho_voj%C3%A1ka_%C5%A0vejka_za_sv%C4%9Btov%C3%A9_v%C3%A1lky",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "nemcova-happy",
+    "text": "Šťastná to žena, která ve světě nemá nic, čeho by litovala.",
+    "language": "cs",
+    "topic": "České osobnosti",
+    "author": "Božena Němcová",
+    "source": "Korespondence Boženy Němcové",
+    "source_url": "https://www.mlp.cz/cz/projekty/on-line-projekty/bozena-nemcova/",
+    "rights": "krátká citace",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
