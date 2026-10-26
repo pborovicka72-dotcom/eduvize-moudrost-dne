@@ -3636,5 +3636,29 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "levi-mind",
+    "text": "Ve sto letech mám díky zkušenostem lepší mysl než ve dvaceti.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Rita Levi-Montalcini",
+    "source": "Rozhovor k 100. narozeninám, 2009",
+    "source_url": "https://www.jta.org/2009/04/19/global/oldest-nobel-winner-celebrates-100th",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "levi-world",
+    "text": "Zajímá mě svět kolem mě.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Rita Levi-Montalcini",
+    "source": "Rozhovor pro BrainFactor, 2009",
+    "source_url": "https://brainfactor.it/cervello-e-longevita-intervista-a-rita-levi-montalcini/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
