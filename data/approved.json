@@ -3480,5 +3480,53 @@
     "rights": "krátká citace; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "fleming-beginning",
+    "text": "Možná ještě nejsme na konci příběhu penicilinu. Možná jsme teprve na začátku.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Alexander Fleming",
+    "source": "Nobelova přednáška, 1945",
+    "source_url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "fleming-observation",
+    "text": "Z jednoduchého pozorování v laboratoři vyrostlo celé průmyslové odvětví.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Alexander Fleming",
+    "source": "Nobelova přednáška, 1945; zkráceno",
+    "source_url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "salk-sun",
+    "text": "Dá se snad patentovat Slunce?",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Jonas Salk",
+    "source": "Rozhovor s Edwardem R. Murrowem, 1955",
+    "source_url": "https://www.latimes.com/archives/la-xpm-1995-06-24-mn-16682-story.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "salk-people",
+    "text": "Vakcína patří lidem, řekl bych.",
+    "language": "cs",
+    "topic": "Medicína a poznání",
+    "author": "Jonas Salk",
+    "source": "Rozhovor s Edwardem R. Murrowem, 1955",
+    "source_url": "https://www.latimes.com/archives/la-xpm-1995-06-24-mn-16682-story.html",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
