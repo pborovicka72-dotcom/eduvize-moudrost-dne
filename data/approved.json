@@ -5004,5 +5004,77 @@
     "rights": "krátká citace; u zahraničních vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "hornicek-humor-serious",
+    "text": "Humor je vážná věc.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miroslav Horníček",
+    "source": "Citát zaznamenaný v profilu Deník.cz",
+    "source_url": "https://www.denik.cz/bydleni/byt-miroslava-hornicka-bude-mesice-v-litomysli.html",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "hornicek-laugh",
+    "text": "Kolena mohou slábnout a slábnou, ale sranda musí bejt.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miroslav Horníček",
+    "source": "Citát zaznamenaný v profilu Deník.cz",
+    "source_url": "https://www.denik.cz/bydleni/byt-miroslava-hornicka-bude-mesice-v-litomysli.html",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "hornicek-happiness",
+    "text": "Štěstí není v tom, co mám nebo kolik mám, štěstí je schopnost být šťasten.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Miroslav Horníček",
+    "source": "Rozhovor s Jiřím Suchým kolem roku 2000",
+    "source_url": "https://citarny.com/souvislosti/chovani-lidi/hornicek-suchy-o-humoru",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "adams-panic",
+    "text": "Nepropadejte panice.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Douglas Adams",
+    "source": "Stopařův průvodce po Galaxii (1979)",
+    "source_url": "https://www.goodreads.com/work/quotes/3078186-the-hitchhiker-s-guide-to-the-galaxy",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "adams-lunchtime",
+    "text": "Čas je iluze. Čas oběda dvojnásob.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Douglas Adams",
+    "source": "Stopařův průvodce po Galaxii (1979)",
+    "source_url": "https://www.goodreads.com/work/quotes/3078186-the-hitchhiker-s-guide-to-the-galaxy",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "adams-dolphins",
+    "text": "Delfíni si mysleli, že jsou inteligentnější než lidé – ze stejných důvodů jako lidé o sobě.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Douglas Adams",
+    "source": "Stopařův průvodce po Galaxii (1979), zkráceno",
+    "source_url": "https://www.goodreads.com/work/quotes/3078186-the-hitchhiker-s-guide-to-the-galaxy",
+    "rights": "krátká citace; u Adamse vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
