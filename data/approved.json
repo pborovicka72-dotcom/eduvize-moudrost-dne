@@ -1115,5 +1115,70 @@
     "rights": "citace – §31; ověřit podmínky využití",
     "audience": "all",
     "verification": "primary-source"
+  },
+  {
+    "id": "cz-sverak-humor",
+    "text": "Jediným a důstojným způsobem, jak vést předem prohrané bitvy a čestně v nich prohrát, je humor.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Zdeněk Svěrák",
+    "work_title": "Projev k 90. narozeninám, 2026",
+    "source": "Doložený český/slovenský výrok, převzato v krátkém rozsahu",
+    "source_url": "https://www.irozhlas.cz/zivotni-styl/spolecnost/obrazem-matka-zilova-oscar-smoljak-ci-pametni-medaile-zdenek-sverak-slavil-sve_2603290855_vsn",
+    "rights": "citace – §31; ověřit podmínky využití",
+    "audience": "all",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "cz-sverak-gift",
+    "text": "Kdo ho máte, buďte rádi, je to vzácný dar.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Zdeněk Svěrák",
+    "work_title": "O humoru, projev k 90. narozeninám, 2026",
+    "source": "Doložený český/slovenský výrok, převzato v krátkém rozsahu",
+    "source_url": "https://www.irozhlas.cz/zivotni-styl/spolecnost/obrazem-matka-zilova-oscar-smoljak-ci-pametni-medaile-zdenek-sverak-slavil-sve_2603290855_vsn",
+    "rights": "citace – §31; ověřit podmínky využití",
+    "audience": "all",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "sk-lasica-poetry",
+    "text": "Poézia bez humoru sa dá vydržať, ale humor bez poézie ťažko.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Milan Lasica",
+    "work_title": "Výrok citovaný RTVS, Rádio Litera",
+    "source": "Doložený český/slovenský výrok, převzato v krátkém rozsahu",
+    "source_url": "https://litera.stvr.sk/clanky/tema-tyzdna/391347/od-serca-k-sencu",
+    "rights": "citace – §31; ověřit podmínky využití",
+    "audience": "all",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "sk-lasica-humor",
+    "text": "Humor nemožno zo seba vyžmýkať. Buď je, alebo nie je.",
+    "language": "cs",
+    "topic": "Kreativita",
+    "author": "Milan Lasica",
+    "work_title": "Výrok citovaný RTVS, Rádio Litera",
+    "source": "Doložený český/slovenský výrok, převzato v krátkém rozsahu",
+    "source_url": "https://litera.stvr.sk/clanky/tema-tyzdna/203108/slovenska-dedina-ocami-realistov",
+    "rights": "citace – §31; ověřit podmínky využití",
+    "audience": "all",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "cz-werich-humor",
+    "text": "Je dobře, že děláte humor pro chytrý lidi.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Jan Werich",
+    "work_title": "Výrok po návštěvě Divadla Járy Cimrmana, 1972, zaznamenal Zdeněk Svěrák",
+    "source": "Doložený český/slovenský výrok, převzato v krátkém rozsahu",
+    "source_url": "https://www.irozhlas.cz/kultura/divadlo/werich-v-divadle-jary-cimrmana_2209071557_mfk",
+    "rights": "citace – §31; ověřit podmínky využití",
+    "audience": "all",
+    "verification": "attributed-report"
   }
 ]
