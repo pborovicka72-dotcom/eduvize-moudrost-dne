@@ -5388,5 +5388,33 @@
     "rights": "krátká citace",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "nobel-feynman-alternative-1965",
+    "text": "Vždy existuje jiný způsob, jak říct totéž, který vůbec nevypadá jako ten původní.",
+    "author": "Richard Feynman",
+    "source": "Nobelova přednáška 1965",
+    "source_url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+    "nobel_field": "fyzika",
+    "nobel_year": 1965,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "nobel-feynman-stories-1965",
+    "text": "Přidám i příběhy, které nemají pro vědu žádnou hodnotu, ale udělají přednášku zábavnější.",
+    "author": "Richard Feynman",
+    "source": "Nobelova přednáška 1965; zkrácený překlad",
+    "source_url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+    "nobel_field": "fyzika",
+    "nobel_year": 1965,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
