@@ -1180,5 +1180,57 @@
     "rights": "citace – §31; ověřit podmínky využití",
     "audience": "all",
     "verification": "attributed-report"
+  },
+  {
+    "id": "grygar-be",
+    "text": "Je lepší být než se zdát.",
+    "language": "cs",
+    "topic": "Moudrost",
+    "author": "Jiří Grygar",
+    "work_title": "Životní motto, citované ČT24 (2026)",
+    "source": "Doložený krátký výrok v uvedeném médiu",
+    "source_url": "https://ct24.ceskatelevize.cz/clanek/veda/jiri-grygar-slavi-90-let-desitky-let-popularizuje-vedu-a-chrani-ji-pred-pavedou-371401",
+    "rights": "citace – §31; posoudit účel užití",
+    "audience": "secondary",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "grygar-evidence",
+    "text": "O vodnících máme větší evidenci než o ufonech.",
+    "language": "cs",
+    "topic": "Humor",
+    "author": "Jiří Grygar",
+    "work_title": "Výrok připomínaný ČT24",
+    "source": "Doložený krátký výrok v uvedeném médiu",
+    "source_url": "https://ct24.ceskatelevize.cz/clanek/veda/jiri-grygar-slavi-90-let-desitky-let-popularizuje-vedu-a-chrani-ji-pred-pavedou-371401",
+    "rights": "citace – §31; posoudit účel užití",
+    "audience": "secondary",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "navratilova-tenis",
+    "text": "Tenis mi udělal krásný život, ale zároveň mi ho zničil, protože jsem utekla.",
+    "language": "cs",
+    "topic": "Život",
+    "author": "Martina Navrátilová",
+    "work_title": "Projev při převzetí medaile Senátu (2023)",
+    "source": "Doložený krátký výrok v uvedeném médiu",
+    "source_url": "https://www.irozhlas.cz/sport/tenis/tenis-martina-navratilova-oceneni-stribrna-medaile-milos-vystrcil_2306131757_spu",
+    "rights": "citace – §31; posoudit účel užití",
+    "audience": "secondary",
+    "verification": "attributed-report"
+  },
+  {
+    "id": "heger-creative",
+    "text": "Žiaden režim nemá takú moc, aby zastavil kreativitu, smiech a priateľstvo.",
+    "language": "sk",
+    "topic": "Kreativita",
+    "author": "Eduard Heger",
+    "work_title": "Vzpomínka na Milana Lasicu (2021)",
+    "source": "Doložený krátký výrok v uvedeném médiu",
+    "source_url": "https://spravy.stvr.sk/2021/07/jeho-praca-presahovala-generacie-nik-nebude-ako-on-reakcie-na-smrt-milana-lasicu/",
+    "rights": "citace – §31; posoudit účel užití",
+    "audience": "secondary",
+    "verification": "attributed-report"
   }
 ]
