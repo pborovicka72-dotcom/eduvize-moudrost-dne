@@ -4548,5 +4548,53 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "lennon-swim",
+    "text": "Jakmile se naučíte plavat, plavte.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "John Lennon",
+    "source": "Rozhovor pro Playboy (1980)",
+    "source_url": "https://www.washingtonpost.com/archive/lifestyle/1980/12/10/john-lennon-1940-1980/f9d18a63-236b-43a2-b24e-4bb8d6b22a4c/",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "lennon-hope",
+    "text": "Dokud je život, je naděje.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "John Lennon",
+    "source": "Rozhovor s Davem Sholinem (1980)",
+    "source_url": "https://www.caymancompass.com/1980/12/12/while-theres-life-theres-hope-lennon",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "bowie-clever",
+    "text": "Byla zábava být chytrý.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "David Bowie",
+    "source": "Rozhovor pro Los Angeles Times",
+    "source_url": "https://www.latimes.com/entertainment/music/la-et-david-bowie-qa-archive-20160111-story.html",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "ella-birds",
+    "text": "Chci jen cítit vzduch, poslouchat ptáky a slyšet Alicin smích.",
+    "language": "cs",
+    "topic": "Hudba a kreativita",
+    "author": "Ella Fitzgeraldová",
+    "source": "Oficiální životopis Elly Fitzgeraldové",
+    "source_url": "https://www.ellafitzgerald.com/biography/",
+    "rights": "krátká citace; český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
