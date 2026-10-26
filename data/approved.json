@@ -3900,5 +3900,101 @@
     "rights": "krátká citace; český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "vangogh-great",
+    "text": "Velké věci nevznikají z impulzu, ale spojením mnoha drobných věcí.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Vincent van Gogh",
+    "source": "Dopis Theovi, 1882",
+    "source_url": "https://vangoghletters.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "vangogh-stars",
+    "text": "Pohled na hvězdy mě vždycky nutí snít.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Vincent van Gogh",
+    "source": "Dopis Theovi, 1888",
+    "source_url": "https://vangoghletters.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "vangogh-try",
+    "text": "Co by byl život, kdybychom neměli odvahu něco zkusit?",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Vincent van Gogh",
+    "source": "Dopisy, 1881",
+    "source_url": "https://vangoghletters.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "mozart-notes",
+    "text": "Noty zvládnu stejně dobře jako ostatní. Ale vášeň, to je něco jiného.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Wolfgang Amadeus Mozart",
+    "source": "Dopis otci, 1777; volnější překlad",
+    "source_url": "https://dme.mozarteum.at/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kahlo-feet",
+    "text": "K čemu potřebuji nohy, když mám křídla, abych létala?",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Frida Kahlo",
+    "source": "Deník Fridy Kahlo, 1953",
+    "source_url": "https://www.fridakahlo.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "kahlo-paint",
+    "text": "Maluji sama sebe, protože jsem často sama a sebe znám nejlépe.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Frida Kahlo",
+    "source": "Rozhovor citovaný v biografiích",
+    "source_url": "https://www.fridakahlo.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "picasso-child",
+    "text": "Každé dítě je umělec. Problém je zůstat umělcem, až vyroste.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Pablo Picasso",
+    "source": "Často citovaný výrok, doložen v rozhovorech o tvorbě",
+    "source_url": "https://www.pablopicasso.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "picasso-action",
+    "text": "Inspirace existuje, ale musí vás zastihnout při práci.",
+    "language": "cs",
+    "topic": "Umění a tvořivost",
+    "author": "Pablo Picasso",
+    "source": "Citovaný výrok v umělecké literatuře",
+    "source_url": "https://www.pablopicasso.org/",
+    "rights": "krátká citace; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
