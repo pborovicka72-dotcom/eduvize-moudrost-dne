@@ -5416,5 +5416,61 @@
     "rights": "krátký úryvek; vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "nobel-dylan-50-2016",
+    "text": "Je těžší hrát pro padesát lidí než pro padesát tisíc.",
+    "author": "Bob Dylan",
+    "source": "Projev na nobelovském banketu, 10. 12. 2016",
+    "source_url": "https://www.nobelprize.org/prizes/literature/2016/dylan/speech/",
+    "nobel_field": "literatura",
+    "nobel_year": 2016,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "nobel-dylan-literature-2016",
+    "text": "Ani jednou jsem neměl čas ptát se sám sebe: Jsou moje písně literaturou?",
+    "author": "Bob Dylan",
+    "source": "Projev na nobelovském banketu, 10. 12. 2016",
+    "source_url": "https://www.nobelprize.org/prizes/literature/2016/dylan/speech/",
+    "nobel_field": "literatura",
+    "nobel_year": 2016,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "nobel-bertozzi-discoveries-2022",
+    "text": "Hlavním cílem vědce je objevovat a předávat objevy lidstvu.",
+    "author": "Carolyn R. Bertozzi",
+    "source": "NobelPrize.org, Women who changed science; zkrácený překlad",
+    "source_url": "https://www.nobelprize.org/stories/women-who-changed-science/carolyn-bertozzi/",
+    "nobel_field": "chemie",
+    "nobel_year": 2022,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "nobel-bertozzi-diversity-2022",
+    "text": "Ptali se mě, jaký byl recept na úspěch v mé laboratoři. Byl jednoduchý: rozmanitost.",
+    "author": "Carolyn R. Bertozzi",
+    "source": "NobelPrize.org, Women who changed science",
+    "source_url": "https://www.nobelprize.org/stories/women-who-changed-science/carolyn-bertozzi/",
+    "nobel_field": "chemie",
+    "nobel_year": 2022,
+    "language": "cs",
+    "topic": "Nositelé Nobelovy ceny",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
