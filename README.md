@@ -1,18 +1,12 @@
 # Eduvize – Moudrost dne
 
-Samostatná aplikace Eduvize. **Zdroje: české a slovenské Wikicitáty (Wikiquote). Bez DeepL, ZenQuotes a jiného překladového API.**
+Funkční bezobslužný modul pro školní nástěnky. Bez API klíčů, překladů a ručního schvalování.
 
-## Provoz
-- `index.html` zobrazuje jen ručně schválené záznamy z `data/approved.json`.
-- `config.html` nastavuje jazyk (čeština nebo slovenština), kategorii a interval přepínání, lokálně v prohlížeči.
-- GitHub Actions `Import Wikicitáty for review` načítá z kategorií definovaných v `data/categories.json` kandidáty do `data/pending.json`.
-- Import nepřidává nic přímo na veřejnou nástěnku. **Každý citát musí správce zkontrolovat** (vhodnost, význam, autorství, licence) a ručně převést do `data/approved.json`.
-- Formát schváleného záznamu: `id,text,language,topic,author,source,source_url`. Zachovejte URL původu a informace o licenci/atribuci.
-- Kategorie Wikicitátů třídí stránky, nikoli jednotlivé výroky; import používá jednoduchou extrakci odrážek a výsledky vyžadují kontrolu.
-- Seznam kategorií je výchozí návrh: názvy a dostupnost na konkrétní wiki se mohou lišit. Před ostrým provozem je ověřte.
+## Publikovaný obsah
+`data/approved.json` obsahuje výběr tradičních českých a slovenských lidových přísloví (PD-traditional), nikoli citáty současných autorů. Používá pouze ustálené tradiční formulace bez přebírání novodobých překladů či komentářů. Výběr tématu, jazyka a interval střídání fungují lokálně v prohlížeči.
 
-## Práva
-Obsah Wikicitátů může mít licenční a autorskoprávní omezení. Před publikací ověřte licenci konkrétního obsahu, požadované uvedení autorů, odkazu a podmínky dalšího užití. Automatický import není právní kontrola.
+## Další automatický import
+Experimentální import z Wikicitátů není zapnutý do publikování: licence stránky Wikiquote není automatickým důkazem volného použití jednotlivého citátu. Bez spolehlivé kontroly původu a práv k jednotlivým výrokům by nebylo správné nové citáty automaticky zveřejňovat. Katalog lze rozšiřovat pouze o tradiční lidová přísloví nebo jiné texty s prokazatelným oprávněním k užití.
 
-## GitHub Actions
-V Settings → Actions → General nastavte Workflow permissions → Read and write permissions. Poté lze ručně spustit import přes Actions. Žádný API klíč není potřeba.
+## Licence
+U tradičních výtvorů lidové kultury se v ČR uplatňuje § 3 písm. b) autorského zákona, pokud jsou splněny zákonné podmínky. Označení v datovém souboru není samo o sobě právním důkazem.
