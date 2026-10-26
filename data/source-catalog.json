@@ -1,0 +1,37 @@
+[
+  {
+    "author": "Karel Čapek",
+    "work": "V zajetí slov",
+    "url": "https://cs.wikisource.org/wiki/V_zajet%C3%AD_slov",
+    "language": "cs",
+    "rights": "PD-old-70",
+    "status": "source-found",
+    "focus": "kritické myšlení a jazyk"
+  },
+  {
+    "author": "Karel Čapek / T. G. Masaryk",
+    "work": "Hovory s T. G. Masarykem – Škola a jiné zájmy",
+    "url": "https://cs.wikisource.org/wiki/Hovory_s_T._G._Masarykem/%C5%A0kola_a_jin%C3%A9_z%C3%A1jmy",
+    "language": "cs",
+    "rights": "PD-old-70",
+    "status": "source-found",
+    "focus": "vzdělání a zkušenosti"
+  },
+  {
+    "author": "Emanuel Tilsch",
+    "work": "Aforismy a myšlenky",
+    "url": "https://cs.wikisource.org/wiki/Aforismy_a_my%C5%A1lenky",
+    "language": "cs",
+    "rights": "PD-old-70",
+    "status": "source-found",
+    "focus": "krátké aforismy; nutný přísný výběr"
+  },
+  {
+    "author": "Karel Čapek",
+    "work": "Autorův soupis děl",
+    "url": "https://cs.wikisource.org/wiki/Autor:Karel_%C4%8Capek",
+    "language": "cs",
+    "status": "source-index",
+    "focus": "původní eseje a prózy"
+  }
+]
