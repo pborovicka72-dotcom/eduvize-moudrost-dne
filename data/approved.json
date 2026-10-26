@@ -5076,5 +5076,89 @@
     "rights": "krátká citace; u Adamse vlastní český překlad",
     "audience": "all",
     "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-simplicity",
+    "text": "Dosáhnout jednoduchosti je těžké.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin",
+    "source": "Rozhovor s Richardem Merymanem, 1966",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-imagination-doing",
+    "text": "Představivost bez činů nic neznamená.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin",
+    "source": "Chaplinovy rukopisné poznámky",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-park-comedy",
+    "text": "K natočení komedie mi stačí park, policista a hezká dívka.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin",
+    "source": "My Autobiography",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-jellyfish",
+    "text": "Život je krásná, nádherná věc. Dokonce i pro medúzu.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin (postava ve filmu Světla ramp)",
+    "source": "Film Limelight, 1952",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-troubles",
+    "text": "Nic na tomhle světě netrvá věčně – ani naše trápení.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin (postava ve filmu Monsieur Verdoux)",
+    "source": "Film Monsieur Verdoux, 1947",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "chaplin-wrong-time",
+    "text": "To je jedna z ironií života: udělat špatnou věc ve správnou chvíli.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Charlie Chaplin (postava ve filmu Monsieur Verdoux)",
+    "source": "Film Monsieur Verdoux, 1947",
+    "source_url": "https://www.charliechaplin.com/en/quotes",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
+  },
+  {
+    "id": "groucho-television-library",
+    "text": "Televize je velmi poučná. Jakmile ji někdo zapne, jdu do knihovny a přečtu si dobrou knihu.",
+    "language": "cs",
+    "topic": "Humor a nadhled",
+    "author": "Groucho Marx",
+    "source": "King Leer, Tele-Views, září 1950",
+    "source_url": "https://quoteinvestigator.com/2014/01/18/groucho-tv/",
+    "rights": "krátký úryvek; vlastní český překlad",
+    "audience": "all",
+    "verification": "source-linked"
   }
 ]
