@@ -43,7 +43,7 @@
 .author{font-size:clamp(10px,8cqh,15px)}
 .work{font-size:clamp(9px,6cqh,12px)}
 }
-/* NSP 2026.10.27.3: explicit viewport modes, same ratio boundaries as Svátky.
+/* NSP 2026.10.27.4: explicit viewport modes, same ratio boundaries as Svátky.
    Keep this block last so earlier container rules cannot override it. */
 html,body{height:100%;overflow:hidden}
 #display{height:100dvh}
@@ -74,14 +74,33 @@ body.nsp-strip .work{font-size:clamp(9px,min(1.1vw,5vh),15px)}
 body.nsp-strip .footer{height:clamp(12px,6vh,23px);min-height:clamp(12px,6vh,23px);padding:1px 10px}
 .version{position:absolute;right:7px;bottom:3px;z-index:5;font:600 9px/1.1 Arial,sans-serif;color:#70869a;opacity:.8;pointer-events:none}
 .footer:not([hidden])+.version{bottom:4px}
-.version{left:50%!important;right:auto!important;bottom:6px!important;transform:translateX(-50%);background:#e4f4f6;color:#075f78!important;padding:4px 12px;border-radius:7px;font-size:clamp(12px,1.3cqw,18px)!important;font-weight:800!important;letter-spacing:.03em;text-align:center;white-space:nowrap;opacity:1!important}/* NSP 2026.10.27.3: unified Eduvize header proportions in every NSP block */
-body.nsp-wide .head,body.nsp-narrow .head,body.nsp-small .head,body.nsp-strip .head{height:12%!important;min-height:0!important;max-height:none!important;flex:0 0 12%!important;padding:0 clamp(10px,1.8vw,30px)!important;gap:clamp(6px,.8vw,16px)!important;background:linear-gradient(90deg,#0874b8,#00a995)!important}
-body.nsp-wide .head-icon,body.nsp-narrow .head-icon,body.nsp-small .head-icon,body.nsp-strip .head-icon{height:60%!important;width:auto!important;aspect-ratio:1;border-radius:25%;display:grid;place-items:center;flex:none}
-body.nsp-wide .head-icon svg,body.nsp-narrow .head-icon svg,body.nsp-small .head-icon svg,body.nsp-strip .head-icon svg{height:58%!important;width:58%!important;transform:none}
-body.nsp-wide .head h1,body.nsp-narrow .head h1,body.nsp-small .head h1,body.nsp-strip .head h1{font-size:clamp(12px,min(2.1vw,5.3vh),34px)!important;line-height:1.1!important}
-body.nsp-wide .topic,body.nsp-narrow .topic,body.nsp-small .topic,body.nsp-strip .topic{font-size:clamp(9px,min(1.1vw,3.5vh),17px)!important}
-body.nsp-strip .head{flex-basis:18%!important;height:18%!important}
-body.nsp-strip .head h1{font-size:clamp(12px,min(1.7vw,9vh),27px)!important}
-body.nsp-strip .topic{font-size:clamp(9px,min(1vw,6vh),16px)!important}
-body.nsp-strip .head-icon{height:65%!important}
-</style></head><body><main id="display"><section class="panel"><header class="head"><span class="head-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 11H5V7h6v5c0 3-2 5-5 6M21 11h-5V7h6v5c0 3-2 5-5 6"/></svg></span><h1>Moudrost dne</h1><div class="topic" id="topic"></div></header><div class="content"><blockquote class="quote" id="quote" aria-live="polite">Načítám citát…</blockquote><div class="attribution"><div class="author" id="author"></div><div class="work" id="work"></div><a class="source-link" id="sourceLink" target="_blank" rel="noopener noreferrer" hidden>Otevřít zdroj citátu</a></div></div><footer class="footer" id="footer">Eduvize · Moudrost dne</footer></section><span class="version" id="version" aria-label="Verze výstupu">NSP 2026.10.27.3</span></main><script src="assets/wisdom.js?v=20261027-4"></script><script>function applyNspLayout(){const w=window.innerWidth||document.documentElement.clientWidth,h=window.innerHeight||document.documentElement.clientHeight,ratio=w/Math.max(1,h);document.body.classList.remove('nsp-wide','nsp-narrow','nsp-small','nsp-strip');document.body.classList.add(ratio>2.7?'nsp-strip':ratio<0.9?'nsp-narrow':ratio>=1.1&&w>=1600&&h>=950?'nsp-wide':'nsp-small');document.body.dataset.nspLayout=ratio>2.7?'panoramic':ratio<0.9?'narrow':ratio>=1.1&&w>=1600&&h>=950?'wide':'small';}window.addEventListener('resize',applyNspLayout);applyNspLayout();EduvizeWisdom.initDisplay();</script></body></html>
+.version{left:50%!important;right:auto!important;bottom:6px!important;transform:translateX(-50%);background:#e4f4f6;color:#075f78!important;padding:4px 12px;border-radius:7px;font-size:clamp(12px,1.3cqw,18px)!important;font-weight:800!important;letter-spacing:.03em;text-align:center;white-space:nowrap;opacity:1!important}/* NSP 2026.10.27.4 — layout based on eduvize-pocasi/weather_service/static/index.html.
+   Weather uses a separate hero, NOT a blue full-width top bar.
+   The quotation panel adopts the same navy-to-teal hero, responsive zone thresholds,
+   light blue canvas, hero border radius and hero typography. */
+html,body,#display{background:#eaf2f8!important}
+.panel{background:#eaf2f8!important;gap:clamp(5px,1vh,12px)!important;padding:clamp(8px,1.2vmin,22px)!important;border-radius:0!important}
+.head{position:relative!important;isolation:isolate;overflow:hidden;flex:0 0 auto!important;height:auto!important;min-height:clamp(80px,22vh,240px)!important;max-height:30%!important;padding:clamp(10px,2vmin,28px)!important;gap:clamp(10px,1.5vw,22px)!important;border-radius:clamp(12px,2vw,30px)!important;background:linear-gradient(112deg,#0c2e54 4%,#075c86 60%,#009f9c 120%)!important;box-shadow:0 18px 40px #11436624}
+.head:before{content:"";position:absolute;z-index:-1;width:55vw;height:55vw;max-width:700px;max-height:700px;right:-11%;top:-120%;border-radius:50%;border:2px solid #ffffff20;box-shadow:0 0 0 60px #ffffff08,0 0 0 130px #ffffff08}
+.head-icon{height:clamp(50px,13vmin,180px)!important;width:clamp(50px,13vmin,180px)!important;aspect-ratio:1;flex:none;border-radius:25%!important;background:#ffffff14!important;border:1px solid #ffffff40!important}
+.head-icon svg{width:65%!important;height:65%!important;transform:none!important}
+.head h1{font-size:clamp(25px,5vmin,66px)!important;line-height:1.08!important;letter-spacing:-.035em}
+.topic{font-size:clamp(13px,1.5vw,22px)!important;max-width:40%}
+.content{border-radius:clamp(10px,1.5vw,22px);flex:1;min-height:0}
+body.nsp-wide .head{min-height:0!important;height:22%!important;max-height:22%!important;flex:0 0 22%!important}
+body.nsp-wide .head h1{font-size:clamp(32px,5vh,64px)!important}
+body.nsp-wide .head-icon{width:clamp(90px,13vh,190px)!important;height:clamp(90px,13vh,190px)!important;margin-left:auto;order:3}
+body.nsp-wide .topic{margin-left:auto}
+body.nsp-narrow .head{min-height:clamp(90px,17vh,220px)!important;max-height:25%!important}
+body.nsp-small .head{min-height:0!important;height:22%!important;max-height:22%!important;flex:0 0 22%!important;padding:clamp(7px,1.5vmin,16px)!important}
+body.nsp-small .head-icon{width:clamp(34px,8vmin,75px)!important;height:clamp(34px,8vmin,75px)!important}
+body.nsp-small .head h1{font-size:clamp(17px,3vmin,32px)!important}
+body.nsp-small .topic{font-size:clamp(10px,1.6vmin,16px)!important}
+body.nsp-strip .panel{padding:clamp(5px,1vh,12px)!important;gap:4px!important}
+body.nsp-strip .head{min-height:0!important;height:28%!important;max-height:28%!important;flex:0 0 28%!important;padding:clamp(5px,1vh,12px)!important;border-radius:clamp(7px,1.5vh,16px)!important}
+body.nsp-strip .head-icon{width:clamp(24px,12vh,54px)!important;height:clamp(24px,12vh,54px)!important;border-radius:7px!important}
+body.nsp-strip .head h1{font-size:clamp(16px,5vh,29px)!important}
+body.nsp-strip .topic{font-size:clamp(10px,2.5vh,16px)!important}
+body.nsp-strip .content{padding:clamp(3px,1vh,10px) clamp(10px,2vw,30px)!important}
+.version{z-index:10!important;bottom:6px!important}
+</style></head><body><main id="display"><section class="panel"><header class="head"><span class="head-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 11H5V7h6v5c0 3-2 5-5 6M21 11h-5V7h6v5c0 3-2 5-5 6"/></svg></span><h1>Moudrost dne</h1><div class="topic" id="topic"></div></header><div class="content"><blockquote class="quote" id="quote" aria-live="polite">Načítám citát…</blockquote><div class="attribution"><div class="author" id="author"></div><div class="work" id="work"></div><a class="source-link" id="sourceLink" target="_blank" rel="noopener noreferrer" hidden>Otevřít zdroj citátu</a></div></div><footer class="footer" id="footer">Eduvize · Moudrost dne</footer></section><span class="version" id="version" aria-label="Verze výstupu">NSP 2026.10.27.4</span></main><script src="assets/wisdom.js?v=20261027-4"></script><script>function applyNspLayout(){const w=window.innerWidth||document.documentElement.clientWidth,h=window.innerHeight||document.documentElement.clientHeight,ratio=w/Math.max(1,h);document.body.classList.remove('nsp-wide','nsp-narrow','nsp-small','nsp-strip');document.body.classList.add(ratio>2.7?'nsp-strip':ratio<0.82?'nsp-narrow':h<800||w<1100?'nsp-small':'nsp-wide');document.body.dataset.nspLayout=ratio>2.7?'panoramic':ratio<0.82?'narrow':h<800||w<1100?'small':'wide';}window.addEventListener('resize',applyNspLayout);applyNspLayout();EduvizeWisdom.initDisplay();</script></body></html>
