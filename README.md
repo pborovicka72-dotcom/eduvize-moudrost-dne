@@ -14,7 +14,9 @@ Samostatný modul citátů pro školní informační obrazovky Eduvize.
 - Jeden citát může mít více tematických kategorií, nemá být uložen vícekrát.
 
 ## Import
-Starší import z Wikizdrojů je vypnutý v `.github/workflows/wikisource.yml`. Skript `scripts/import_wikisource.py` zůstává jen jako historický zdrojový kód a nemá se spouštět pro produkční databázi.
+Starší import z Wikizdrojů byl vyřazen; jeho historie zůstává v Gitu.
+Produkční databázi jím neobnovovat. Nové citáty musí projít redakčním ověřením
+znění, autorství a licence před zařazením do `data/approved.json`.
 
 ## Konfigurace
 `config.html`: věková skupina, 1–3 citáty za den, střídání autorů, témata,
