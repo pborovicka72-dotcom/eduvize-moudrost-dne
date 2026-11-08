@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const source=fs.readFileSync(new URL('../assets/published.js',import.meta.url),'utf8');
+let options,intervals=new Set(),count=0;
+const nodes=new Map();
+const node=()=>({hidden:false,textContent:'',dataset:{},style:{setProperty(){},removeProperty(){}},classList:{toggle(){}},removeAttribute(k){delete this[k];}});
+const document={hidden:false,getElementById:id=>{if(!nodes.has(id))nodes.set(id,node());return nodes.get(id);},querySelector:()=>shell,documentElement:node()};
+const shell=node();
+const window={document,innerWidth:3840,innerHeight:2160,addEventListener(){},EduvizeOutputRuntime:{start:o=>{options=o;}}};
+vm.runInNewContext(source,{window,document,URL,Intl,Date,Object,Number,Math,Set,Error,setInterval:()=>{intervals.add(++count);return count;},clearInterval:id=>intervals.delete(id)});
+const settings={dailyCount:3,authorRepeat:'avoid',showSourceLink:true};
+const quotes=Array.from({length:6},(_,i)=>({id:String(i),text:'Quote '+i,author:'Author '+(i%3),topic:'Topic',work_title:'Book',source:'Approved source',source_url:'https://example.org/citation'}));
+const payload={settings,quotes};
+const api=window.EduvizeWisdomPublished;
+assert.equal(api.clock(new Date('2026-11-08T23:15:00Z')).day,'2026-11-09');
+assert.equal(api.clock(new Date('2026-07-08T22:15:00Z')).day,'2026-07-09');
+const slots=['2026-11-08T00:00:00Z','2026-11-08T08:00:00Z','2026-11-08T16:00:00Z'];
+const chosen=slots.map(t=>api.choose(payload,new Date(t)));
+assert.equal(new Set(chosen.map(q=>q.id)).size,3);
+assert.equal(new Set(chosen.map(q=>q.author)).size,3);
+assert.equal(api.choose({settings:{...settings,dailyCount:3},quotes:[quotes[0]]},new Date(slots[2])).id,'0');
+const metrics={geometry:{width:3840,height:2160},header:{height:192},text:{body:80}};
+for(const mode of ['nsp','kiosk','web']){
+ const controller=new AbortController();
+ options.render({payload,presentation:{mode,interaction:'display'}},metrics,{signal:controller.signal});
+ assert.equal(intervals.size,1);assert.equal(document.getElementById('sourceLink').hidden,true);
+ assert.match(document.getElementById('quote').textContent,/^Quote /);
+ controller.abort();assert.equal(intervals.size,0);
+}
+options.render({payload,presentation:{mode:'web',interaction:'interactive'}},metrics,{signal:new AbortController().signal});
+assert.equal(document.getElementById('sourceLink').href,'https://example.org/citation');
+options.clear();assert.equal(intervals.size,0);assert.equal(shell.hidden,true);assert.equal(document.getElementById('quote').textContent,'');
+assert.throws(()=>options.render({payload:{settings,quotes:[]},presentation:{mode:'web'}},metrics,{signal:new AbortController().signal}));
+const html=fs.readFileSync(new URL('../published.html',import.meta.url),'utf8');
+for(const banned of ['admin-auth','active-theme','output-modes','segment-display','assets/wisdom.js','assets/settings.js','localStorage','edu-profile'])assert.equal(html.includes(banned),false,banned);
+assert.equal(source.includes('fetch('),false,'Renderer uses snapshot, never private APIs or external fetch');
+console.log('Wisdom renderer: timezone, rotation, modes, abort/clear, citation and isolated dependency checks passed');
