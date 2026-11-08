@@ -17,7 +17,11 @@ read now preserves values/segment/topics/authors and adds full `presentation`.
 It calls no registry operation. Legacy native configurations remain readable;
 before first generation the user saves once to record full Presentation.
 NSP geometry uses the selected canonical segment; kiosk dimensions come from the
-mounted preview iframe's explicit data-preview-width/height. No inferred defaults
+mounted preview iframe's explicit data-preview-width/height. Native apply restores
+saved kiosk dimensions through the existing shared
+`EduvizeSegmentSelection.setKioskGeometry` setter before mode changes; it never
+replaces the iframe or simulates clicks. This requires the reviewed Styles PR33
+setter addition (source head ccbfb792b6d1f917dca4fda05cb41e112fd65bea). No inferred defaults
 or query/localStorage profile authority is added.
 
 The new Generate/Update button sits in the existing output action row. Existing
