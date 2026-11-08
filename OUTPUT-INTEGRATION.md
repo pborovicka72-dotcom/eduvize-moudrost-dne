@@ -22,7 +22,12 @@ revisions, atomic publication and public theme checks. This app adds no private 
 
 ## Existing common action registration
 
-Map the existing `EduvizeProfileAdapter.read()` value to this CLOSED payload:
+Load `assets/output-adapter.js` in the existing config page after its profile adapter.
+The common action owner can call `EduvizeWisdomOutputAdapter.draft(presentation)`;
+it awaits and validates the existing profile adapter and returns the closed v1 draft.
+It creates no controls or resolver. Its common-action caller must first complete the
+normal cloud profile load/save and provide the verified context and canonical
+presentation, as for the other apps. The getter maps the existing form as follows:
 
 ```js
 const config = EduvizeProfileAdapter.read();
