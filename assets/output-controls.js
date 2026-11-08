@@ -29,19 +29,21 @@
   // It remains owned by the existing profile controller and never calls registry.
   adapter.read=()=>{const config=nativeRead();return {...config,presentation:presentation(config)};};
   adapter.apply=async config=>{
-   await nativeApply(config);
-   if(config.presentation){
-    const p=config.presentation;
-    if(p.mode!==config.values.outputType)error('INVALID_PRESENTATION','Uložený režim výstupu neodpovídá nastavení.');
+   const p=config.presentation;
+   if(p){
+    if(p.mode!==config.values.outputType||!['display','interactive'].includes(p.interaction))error('INVALID_PRESENTATION','Uložený režim výstupu neodpovídá nastavení.');
     root.EduvizeOutputActions.canonicalSlot(p);
+    if(p.mode==='kiosk'){
+     if(!['menu','tiles'].includes(p.kioskLayout))error('INVALID_PRESENTATION','Neplatné rozložení kiosku.');
+     const {width,height,orientation}=p.geometry;
+     if(root.EduvizeSegmentSelection?.setKioskGeometry?.({width,height,orientation})!==true)error('DEPENDENCY_UNAVAILABLE','Rozměry uloženého kiosku se nepodařilo obnovit.');
+    }
+   }
+   // Shared setter retains kiosk geometry across the native mode/preview refresh.
+   await nativeApply(config);
+   if(p){
     root.EduvizeOutputModes.setInteraction(p.interaction,{notify:false});
     if(p.mode==='kiosk')root.EduvizeOutputModes.setKioskLayout(p.kioskLayout,{notify:false});
-    // The preview is mounted at the saved canonical dimensions, not an old cache.
-    if(p.mode==='kiosk'){
-     const frame=document.querySelector('.kiosk-preview iframe');
-     if(!frame)error('DEPENDENCY_UNAVAILABLE','Náhled kiosku není připravený.');
-     root.EduvizePreviewViewport.mount(frame,{host:frame.parentElement,width:p.geometry.width,height:p.geometry.height});
-    }
    }
   };
   async function start(){
