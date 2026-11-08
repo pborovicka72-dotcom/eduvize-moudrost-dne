@@ -22,15 +22,15 @@ revisions, atomic publication and public theme checks. This app adds no private 
 
 ## Existing common action registration
 
-Load `assets/output-adapter.js` in the existing config page after its profile adapter.
-The common action owner can call `EduvizeWisdomOutputAdapter.draft(presentation)`;
-it awaits and validates the existing profile adapter and returns the closed v1 draft.
-It creates no controls or resolver. Its common-action caller must first complete the
-normal cloud profile load/save and provide the verified context and canonical
-presentation, as for the other apps. The getter maps the existing form as follows:
+The concrete ordinary-control integration is now in OUTPUT-ACTIONS-V2.md.
+`assets/output-controls.js` calls the frozen shared SavedOutputSettings reader and
+then `EduvizeWisdomOutputAdapter.fromSaved(savedConfig,presentation)`. The strict
+getter never reads the live form. Normal cloud Save preserves native config and
+adds full Presentation; the common V2 controller owns Generate/Update/Copy/Open.
+The following mapping is from the freshly verified SAVED configuration:
 
 ```js
-const config = EduvizeProfileAdapter.read();
+const config = (await savedSettings.load(context)).config;
 const payload = {
   audience: config.values.audience,
   dailyCount: Number(config.values.dailyCount),
