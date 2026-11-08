@@ -52,6 +52,20 @@ class WisdomOutputs(unittest.TestCase):
     def publish(self,o):
         r=self.call('POST','/api/v1/outputs/'+o['id']+'/publish',{'expectedRevision':o['revision']});self.assertEqual(r.status_code,200,r.text);return r.json()
     def tearDown(self):self.tmp.cleanup()
+    def test_all_presentation_modes_use_same_fixed_renderer(self):
+        presentations=[
+            {'mode':'web','geometry':None,'interaction':'display'},
+            {'mode':'nsp','geometry':{'registryId':'nsp-4k','registryVersion':1,'orientation':'landscape','layoutId':1,'segmentId':1},'interaction':'display'},
+            {'mode':'nsp','geometry':{'registryId':'nsp-4k','registryVersion':1,'orientation':'portrait','layoutId':1,'segmentId':1},'interaction':'display'},
+            {'mode':'kiosk','geometry':{'registryId':'kiosk-viewport','registryVersion':1,'orientation':'portrait','width':1080,'height':1920},'interaction':'interactive','kioskLayout':'menu'},
+        ]
+        for presentation in presentations:
+            self.body['draft']['presentation']=presentation
+            output=self.publish(self.create())
+            public=self.client.get('/api/public/v1/outputs/'+output['id']).json()
+            self.assertEqual(public['presentation']['mode'],presentation['mode'])
+            self.assertTrue(public['payload']['quotes'])
+            self.assertEqual(self.client.get('/o/'+output['id'],follow_redirects=False).headers['location'],'/eduvize-moudrost-dne/published.html?edu-output='+output['id'])
     def test_strict_and_selected_catalog(self):
         for delta in [{'dailyCount':True},{'dailyCount':4},{'profileId':'d'*32},{'token':'secret'},{'topics':['unknown']},{'authors':['unknown']},{'showSourceLink':'1'},{'topics':['Humor','Humor']}]:
             with self.assertRaises(ValueError):validate({**PAYLOAD,**delta},{})
