@@ -29,6 +29,20 @@ assert.equal(toSave.data,undefined);assert.equal(profileReads,readsBeforeSave);a
 form.values.audience='secondary';
 let draft=await mounted.draft();assert.equal(draft.payload.audience,'all');assert.equal(profileReads,1);
 stored.values.audience='primary';draft=await mounted.draft();assert.equal(draft.payload.audience,'primary');assert.equal(profileReads,2);
+// Restore through the shared API before native apply, then read actual dimensions.
+const kioskConfig=structuredClone(native);
+kioskConfig.values.outputType='kiosk';
+kioskConfig.presentation={mode:'kiosk',interaction:'interactive',kioskLayout:'menu',geometry:{registryId:'kiosk-viewport',registryVersion:1,orientation:'portrait',width:2160,height:3840}};
+let geometry=null,calledBeforeNative=false;
+window.EduvizeSegmentSelection={setKioskGeometry:value=>{calledBeforeNative=form.values.outputType==='web';geometry=value;return true;}};
+const query=document.querySelector;
+document.querySelector=selector=>selector.includes('kiosk-preview iframe')?{getAttribute:key=>String(key==='data-preview-width'?geometry.width:geometry.height)}:query(selector);
+await adapter.apply(kioskConfig);assert.equal(calledBeforeNative,true);
+assert.equal(adapter.read().presentation.geometry.height,3840);
+assert.equal(adapter.read().presentation.geometry.orientation,'portrait');
+window.EduvizeSegmentSelection.setKioskGeometry=()=>false;
+await assert.rejects(adapter.apply(kioskConfig),/obnovit/);
+form=structuredClone(native);document.querySelector=query;
 stored={...stored,empty:true};await assert.rejects(mounted.draft(),/uložte|nastavení/i);
 stored=structuredClone(native);delete stored.presentation;await assert.rejects(mounted.draft(),/uložte/i);
 stored=structuredClone(native);form.presentation.interaction='interactive';await assert.rejects(mounted.draft(),/uložte/i);
