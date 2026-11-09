@@ -1,2 +1,6 @@
-/* Lifecycle visibility and viewport mounting only; text roles stay in shared CSS. */
+/* Lifecycle visibility and established Wisdom preview roles; no News typography. */
 .edu-wisdom-output [hidden]{display:none!important}
+.edu-wisdom-output{font-family:var(--edu-admin-font,system-ui)}
+html[data-kiosk-app="wisdom"] .edu-wisdom-output .edu-output-header .edu-header-title{font-weight:650!important;line-height:1.12!important}
+html[data-kiosk-app="wisdom"].kiosk-output .edu-wisdom-output .web-shell{padding:0!important}
+html[data-kiosk-app="wisdom"]:is(.nsp-output,.kiosk-output) .edu-wisdom-output [data-edu-source-details]{display:none!important}
