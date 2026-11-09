@@ -40,7 +40,7 @@ function size(){
   for(const k of ['width','height','min-height','position','left','top','transform','transform-origin'])shell.style.removeProperty(k);
  }else{
   const w=m.geometry.width,h=m.geometry.height;
-  Object.assign(shell.style,{width:w+'px',height:h+'px',minHeight:'0',position:'absolute',left:'50%',top:'0',transform:'translateX(-50%) scale('+Math.min(root.innerWidth/w,root.innerHeight/h)+')',transformOrigin:'top center'});
+  Object.assign(shell.style,{width:w+'px',height:h+'px',minHeight:'0',position:'absolute',left:'50%',top:'50%',transform:'translate(-50%,-50%) scale('+Math.min(root.innerWidth/w,root.innerHeight/h)+')',transformOrigin:'center center'});
  }
 }
 function verify(payload){

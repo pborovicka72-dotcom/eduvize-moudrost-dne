@@ -2,6 +2,7 @@
 (function(root){'use strict';
  const canonical=value=>JSON.stringify(value,(_,v)=>v&&typeof v==='object'&&!Array.isArray(v)?Object.fromEntries(Object.entries(v).sort(([a],[b])=>a.localeCompare(b))):v);
  root.EduvizeWisdomManagedOutput=true;
+ root.EduvizeWisdomSavedWorkflow=true;
  const error=(code,message)=>{throw Object.assign(new Error(message),{code});};
  function presentation(config){
   const mode=config.values.outputType;
@@ -59,16 +60,23 @@
     if(!auth?.connected||!auth.schoolId||!/^[a-f0-9]{32}$/.test(auth.profileId||''))error('CONTEXT_REQUIRED','Přihlaste se ke škole a vyberte uložený profil.');
     return {schoolId:String(auth.schoolId),profileId:auth.profileId,appId:'wisdom',presentation:presentation(nativeRead())};
    };
-   const controls=root.EduvizeOutputActions.mount({client,context,
-    draft:async()=>{
-     const before=context(),record=await saved.load(before),config=record.config;
+   const controls=root.EduvizeOutputActions.mount({client,context,workflow:'saved-copy-preview',
+    draft:async({savedCommit}={})=>{
+     const before=context();
+     if(savedCommit&&(savedCommit.profileId!==before.profileId||savedCommit.appId!==before.appId||!Number.isSafeInteger(savedCommit.revision)||savedCommit.revision<0))error('INVALID_SAVED_COMMIT','Nelze ověřit uložené nastavení.');
+     const config=savedCommit?structuredClone(savedCommit.config):(await saved.load(before)).config;
      const after=context();
      if(JSON.stringify(before)!==JSON.stringify(after))error('CONTEXT_CHANGED','Školní profil nebo výstup se během načítání změnil.');
      if(!config.presentation||canonical(config.presentation)!==canonical(before.presentation))error('SETTINGS_REQUIRED','Nejprve uložte nastavení a vybraný režim výstupu do Eduvize.');
      return root.EduvizeWisdomOutputAdapter.fromSaved(config,before.presentation);
     },
-    elements:{generateButton:document.getElementById('generateOutput'),copyButton:document.getElementById('copyOutput'),openButton:document.getElementById('openOutput'),status}
+    previewDraftUrl:()=>{const url=new URL(root.eduvizeWisdomOutputUrl(),root.location.href);url.searchParams.set('preview','1');return url.href;},
+    elements:{copyButton:document.getElementById('copyOutput'),openButton:document.getElementById('openOutput'),status}
    });
+   adapter.outputActions=controls;
+   const local=document.getElementById('saveLocal');if(local)local.hidden=true;
+   const cloudSave=document.querySelector('[data-edu-profile-save]');if(cloudSave)cloudSave.textContent='Uložit nastavení';
+   document.addEventListener('click',event=>{if(event.isTrusted&&event.target.closest('#allTopics,#noneTopics,#allAuthors,#noneAuthors'))document.dispatchEvent(new Event('eduvize-profile-change',{bubbles:true}));});
    const refresh=()=>controls.refresh().catch(e=>{status.textContent=e.message;});
    for(const type of ['change','eduvize-configuration-saved'])document.addEventListener(type,()=>{void refresh();});
    root.addEventListener('eduvize-admin-auth-change',()=>{void refresh();});
@@ -76,6 +84,7 @@
    document.querySelector('.edu-output-section').addEventListener('click',event=>{
     if(!event.target.closest('.edu-output-actions'))root.requestAnimationFrame(()=>{void refresh();});
    });
+   root.dispatchEvent(new Event('eduvize-profile-adapter-ready'));
    await refresh();root.EduvizeWisdomOutputControls.actions=controls;
   }
   const ready=start();ready.catch(e=>{const status=document.getElementById('outputStatus');if(status)status.textContent=e.message;});
