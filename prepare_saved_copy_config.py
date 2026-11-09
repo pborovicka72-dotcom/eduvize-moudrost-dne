@@ -15,8 +15,6 @@ def prepare(source):
     source=once(source,'<button class="edu-admin__button" id="generateOutput" type="button">Vygenerovat odkaz</button>','')
     source=once(source,'>Otevřít výstup</button>','>Otevřít náhled</button>')
     source=once(source,'</head>','<style data-wisdom-saved-workflow>#saveLocal{display:none!important}</style></head>')
-    source=once(source,'<script src="assets/output-controls.js?',
-                '<script src="assets/wisdom-recovery.js?v=20261109-native-workflow"></script><script src="assets/output-controls.js?')
     return source
 
 
