@@ -15,7 +15,7 @@ const window={document,location:{href:'https://test.skola.eduvize.cz/eduvize-mou
  EduvizeOutputActions:{canonicalSlot:p=>{assert.ok(['web','nsp','kiosk'].includes(p.mode));return JSON.stringify([p.mode,p.geometry]);},mount:opts=>{mounted=opts;return {workflow:'saved-copy-preview',withSavedCommit(){},refresh:async()=>{refreshes++;}};}}
 };
 const ctx=vm.createContext({window,document,structuredClone,Error,Object,Array,Number,JSON,URL,Event:class{constructor(type){this.type=type;}}});
-for(const f of ['assets/settings.js','assets/load-saved-app.js','assets/output-adapter.js','assets/wisdom-recovery.js','assets/output-controls.js'])vm.runInContext(fs.readFileSync(new URL(f,root),'utf8'),ctx);
+for(const f of ['assets/settings.js','assets/load-saved-app.js','assets/output-adapter.js','assets/output-controls.js'])vm.runInContext(fs.readFileSync(new URL(f,root),'utf8'),ctx);
 const adapter={app:'wisdom',ready:Promise.resolve(),read:()=>structuredClone(form),apply:async v=>{form=structuredClone(v);}};
 await window.EduvizeWisdomOutputControls.install(adapter);
 assert.equal(refreshes,1);assert.equal(mounted.client,client);
@@ -54,6 +54,6 @@ form=structuredClone(native);token='';await assert.rejects(mounted.draft(),/Při
 token='test-only';const request=window.EduvizeProfiles.request;
 window.EduvizeProfiles.request=async(...args)=>{const value=await request(...args);auth={...auth,profileId:'c'.repeat(32)};return value;};
 await assert.rejects(mounted.draft(),/profil|účet/i);
-assert.equal(adapter.recovery.clean,window.EduvizeWisdomRecovery.clean);
-assert.equal(adapter.recovery.read().values.audience,'all');
-console.log('Wisdom saved-copy-preview: exact Save commit, fresh first Copy, unsaved draft preview, native recovery and guards PASS');
+assert.equal(adapter.recovery,undefined);
+assert.equal(window.EduvizeWisdomRecovery,undefined);
+console.log('Wisdom saved-copy-preview: exact Save commit, fresh first Copy, unsaved draft preview, NO recovery registration and guards PASS');
