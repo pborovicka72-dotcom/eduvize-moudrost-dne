@@ -74,7 +74,6 @@
     elements:{copyButton:document.getElementById('copyOutput'),openButton:document.getElementById('openOutput'),status}
    });
    adapter.outputActions=controls;
-   adapter.recovery={read:()=>{const value=nativeRead();let pending=null;try{pending=presentation(value);}catch(e){if(!['INVALID_PRESENTATION','INVALID_GEOMETRY'].includes(e.code))throw e;}return root.EduvizeWisdomRecovery.clean({...value,presentation:pending});},apply:async value=>{const config=root.EduvizeWisdomRecovery.clean(value);await adapter.apply(config);return {presentationPending:config.presentation===null};},clean:root.EduvizeWisdomRecovery.clean};
    const local=document.getElementById('saveLocal');if(local)local.hidden=true;
    const cloudSave=document.querySelector('[data-edu-profile-save]');if(cloudSave)cloudSave.textContent='Uložit nastavení';
    document.addEventListener('click',event=>{if(event.isTrusted&&event.target.closest('#allTopics,#noneTopics,#allAuthors,#noneAuthors'))document.dispatchEvent(new Event('eduvize-profile-change',{bubbles:true}));});
