@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const js=fs.readFileSync(new URL('../assets/published.js',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../assets/published.css',import.meta.url),'utf8');
+assert.ok(js.includes("top:'50%',transform:'translate(-50%,-50%) scale('"));
+assert.ok(js.includes("transformOrigin:'center center'"));
+assert.ok(js.includes('Math.min(root.innerWidth/w,root.innerHeight/h)'));
+assert.ok(css.includes('font-weight:650!important'));
+assert.ok(css.includes('font-family:var(--edu-admin-font,system-ui)'));
+assert.ok(css.includes('.kiosk-output .edu-wisdom-output .web-shell{padding:0!important}'));
+assert.ok(css.includes(':is(.nsp-output,.kiosk-output) .edu-wisdom-output [data-edu-source-details]'));
+assert.equal(/font-size\s*:/.test(css),false,'Retain existing shared Wisdom quote roles');
+console.log('Wisdom source format alignment: centered canvas, native header/font, kiosk inset and source-details policy PASS (not visual/browser acceptance)');
