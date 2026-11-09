@@ -22,7 +22,9 @@ jobs:
       - run: python -m unittest discover -s tests -p 'test_actions_carriers.py' -v
       - run: node tests/published.test.mjs
       - run: node tests/output-bridge.test.mjs
-      - run: node tests/output-controls-v2.test.mjs
+      - run: node tests/output-controls-workflow.test.mjs
+      - run: node tests/wisdom-recovery.test.mjs
+      - run: node tests/wisdom-format.test.mjs
       - run: python -m build --wheel
       - name: Validate packaged approved data
         run: |
