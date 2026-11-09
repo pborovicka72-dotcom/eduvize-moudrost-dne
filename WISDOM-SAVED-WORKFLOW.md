@@ -13,23 +13,20 @@ Subsequent Copy and new-tab navigation are shared controller behavior. Preview U
 uses only the existing current-draft URL builder and preview=1, with no persistence.
 
 The HTML recipe removes only Generate, relabels Open as Otevřít náhled, hides the
-internal browser-save node at first paint and loads the native recovery whitelist.
-The hidden local node remains for the existing central Save internals. Cloud Save is
+internal browser-save node at first paint without adding any local recovery loader.
+The hidden local node remains for Accounts to reconcile its internal Save path. Cloud Save is
 labelled Uložit nastavení. Other controls are not moved. Legacy native local bootstrap
 and autosave are bypassed only for the new workflow; centralized scoped recovery is
 the authority for local unsaved drafts. Existing old stored entries are not deleted.
 
-Recovery supplies native read/apply/pure-clean capability, not News DTOs or a store.
-The whitelist retains values, topics, authors, segment, Presentation and native
-interaction/layout enums only. No tokens, school/provider state or URLs are retained.
-Central Accounts must compose its generic recovery opt-in, school/profile/revision
-scope, TTL, explicit restore/discard and Save-busy protections. This application
-cannot claim recovery active until that shared dependency is deployed. Pending
-geometry is retained as presentation:null; apply returns presentationPending and
-does not guess kiosk dimensions or publish. User must finish geometry before Save.
-All/None topic/author actions emit the existing explicit profile-change event.
-The existing profile-adapter-ready event refreshes the generic recovery hook after
-instance registration; Profiles' guard prevents a duplicate panel install.
+Local draft recovery is explicitly CANCELLED by the user's latest instruction.
+No recovery capability is registered, no recovery helper is loaded, and no Restore,
+Discard, capture, scoped store or f928 dependency is requested. Any pure helper files
+remaining in source history are inert and are excluded from runtime additions.
+Existing dirty/beforeunload/profile-navigation guards and confirmed cloud baseline
+remain unchanged. No storage.clear or prefix pruning is performed. The hidden
+internal local-save node is retained for Accounts' own removal of pre-PUT side effects;
+the native Wisdom local startup/autosave bypass remains enabled for this workflow.
 
 ## Concrete source-format findings and scoped fixes
 
@@ -54,15 +51,14 @@ reported separately rather than changing shared preview architecture here.
 ## Finite deployment
 
 Owned runtime replacements: assets/output-controls.js, assets/wisdom.js,
-assets/published.js, assets/published.css. One runtime addition:
-assets/wisdom-recovery.js. Native config carrier uses prepare_saved_copy_config.py
+assets/published.js, assets/published.css. No new runtime addition. Native config carrier uses prepare_saved_copy_config.py
 over Server's actual fresh config preimage; never replace whole historical HTML.
 The helper requires the exact input SHA and produces a separate exclusive candidate
 only with a reviewed after SHA. Default is metadata-only dry run. It preserves V3,
 environment injection, cache carriers, other handlers and all unrelated bytes.
 
 Shared requirements: the current saved-copy-preview controller with new-tab preview,
-Accounts confirmed-Save snapshot hook and generic scoped native recovery opt-in.
+Accounts confirmed-Save snapshot hook and central urgent NoDraft patch.
 Keep the current shared geometry/kiosk setter, strict saved payload adapter, reader,
 backend module, licence/ownership guards and renderer dependency closure unchanged.
 No wheel/backend/database migration or additional public route is introduced.
