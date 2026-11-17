@@ -1,0 +1,30 @@
+name: Wisdom published output
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  adapter-renderer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # Registry HTTP tests are run with the pinned private core by the TEST builder.
+      # Never copy private core into this repository to make cross-repo CI pass.
+      - run: python -m pip install build .
+      - run: python -m unittest discover -s tests -p 'test_output_payload.py' -v
+      - run: node tests/published.test.mjs
+      - run: node tests/output-bridge.test.mjs
+      - run: python -m build --wheel
+      - name: Validate packaged approved data
+        run: |
+          python -m venv /tmp/wisdom-wheel
+          /tmp/wisdom-wheel/bin/pip install dist/*.whl
+          cd /tmp
+          /tmp/wisdom-wheel/bin/python -c "from eduvize_wisdom.output_adapter import catalog; assert len(catalog()[0]) > 100"

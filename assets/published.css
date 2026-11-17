@@ -1,0 +1,2 @@
+/* Lifecycle visibility and viewport mounting only; text roles stay in shared CSS. */
+.edu-wisdom-output [hidden]{display:none!important}
