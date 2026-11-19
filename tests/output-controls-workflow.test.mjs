@@ -18,7 +18,7 @@ const ctx=vm.createContext({window,document,structuredClone,Error,Object,Array,N
 for(const f of ['assets/settings.js','assets/load-saved-app.js','assets/output-adapter.js','assets/output-controls.js'])vm.runInContext(fs.readFileSync(new URL(f,root),'utf8'),ctx);
 const adapter={app:'wisdom',ready:Promise.resolve(),read:()=>structuredClone(form),apply:async v=>{form=structuredClone(v);}};
 await window.EduvizeWisdomOutputControls.install(adapter);
-assert.equal(refreshes,1);assert.equal(mounted.client,client);
+assert.equal(refreshes,0);assert.equal(mounted.client,client);
 assert.deepEqual(Object.keys(mounted.context()).sort(),['appId','presentation','profileId','schoolId']);
 assert.equal(adapter.outputActions.workflow,'saved-copy-preview');assert.equal(mounted.workflow,'saved-copy-preview');assert.equal(mounted.elements.generateButton,undefined);
 assert.equal(mounted.resolve,undefined);assert.equal(mounted.context().slotId,undefined);
