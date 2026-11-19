@@ -4,3 +4,4 @@
 html[data-kiosk-app="wisdom"] .edu-wisdom-output .edu-output-header .edu-header-title{font-weight:650!important;line-height:1.12!important}
 html[data-kiosk-app="wisdom"].kiosk-output .edu-wisdom-output .web-shell{padding:0!important}
 html[data-kiosk-app="wisdom"]:is(.nsp-output,.kiosk-output) .edu-wisdom-output [data-edu-source-details]{display:none!important}
+.edu-wisdom-output #publication-status{position:fixed;inset:0;display:grid;place-items:center;margin:0;padding:24px;box-sizing:border-box;text-align:center;font:18px/1.5 system-ui,sans-serif;background:var(--ev-bg,#f8f0f3);color:var(--ev-text,#51313f);z-index:1}
