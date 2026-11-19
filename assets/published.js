@@ -36,12 +36,14 @@ function size(){
  html.dataset.secondarySources=p.mode!=='web'&&(m.geometry.width/m.geometry.height>=2.7||(m.geometry.width<=1200&&m.geometry.height<=720))?'hidden':'visible';
  for(const [k,v] of Object.entries(m.header))shell.style.setProperty('--edu-header-'+k,v+'px');
  for(const [k,v] of Object.entries(m.text))shell.style.setProperty('--edu-text-'+k,v+'px');
+ root.EduvizeWisdomPublishedHeaderMetrics={width:m.geometry?.width||root.innerWidth,height:m.geometry?.height||root.innerHeight,header:m.header};
  if(p.mode==='web'){
   for(const k of ['width','height','min-height','position','left','top','transform','transform-origin'])shell.style.removeProperty(k);
  }else{
   const w=m.geometry.width,h=m.geometry.height;
   Object.assign(shell.style,{width:w+'px',height:h+'px',minHeight:'0',position:'absolute',left:'50%',top:'50%',transform:'translate(-50%,-50%) scale('+Math.min(root.innerWidth/w,root.innerHeight/h)+')',transformOrigin:'center center'});
  }
+ root.EduvizeOutputHeader?.update?.();
 }
 function verify(payload){
  if(!payload?.settings||!Array.isArray(payload.quotes)||!payload.quotes.length||payload.quotes.length>1000||!Number.isInteger(payload.settings.dailyCount)||payload.settings.dailyCount<1||payload.settings.dailyCount>3)throw Error('Invalid Wisdom publication');
