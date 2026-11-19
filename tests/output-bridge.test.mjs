@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const window={};
+const ctx=vm.createContext({window,structuredClone,Number,Error,Object,JSON});
+for(const f of ['settings.js','output-adapter.js'])vm.runInContext(fs.readFileSync(new URL('../assets/'+f,import.meta.url),'utf8'),ctx);
+const presentation={mode:'web',geometry:null,interaction:'display',kioskLayout:null};
+const config={schemaVersion:1,values:{audience:'primary',dailyCount:'2',authorRepeat:'avoid',showSourceLink:true,outputType:'web'},topics:['Humor'],authors:[],segment:null,presentation};
+const draft=await window.EduvizeWisdomOutputAdapter.draft(presentation,config);
+assert.equal(draft.payload.dailyCount,2);assert.equal(draft.payload.outputType,undefined);
+config.topics.push('Other');presentation.mode='kiosk';
+assert.equal(draft.payload.topics.length,1);assert.equal(draft.presentation.mode,'web');
+await assert.rejects(window.EduvizeWisdomOutputAdapter.draft(presentation),/uložte/);
+await assert.rejects(window.EduvizeWisdomOutputAdapter.draft({mode:'web'},config),/uložte/);
+config.values.dailyCount='4';await assert.rejects(window.EduvizeWisdomOutputAdapter.draft(presentation,config),/Neplatné/);
+console.log('Wisdom saved native payload bridge passed');
